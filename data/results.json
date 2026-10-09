@@ -65,10 +65,11 @@
         0.65,
         0.95
       ],
-      "video": "assets/videos/task-03.mp4",
+      "video": "assets/videos/task-03-trimmed.mp4",
       "poster": "assets/images/task-03.webp",
       "supplementary": false,
-      "duration": 37.666666666666664
+      "duration": 30.583333333333332,
+      "trimmedIntroSeconds": 7.1
     },
     {
       "id": 4,
@@ -1084,6 +1085,30 @@
       "taskId": 14
     },
     {
+      "key": "burger",
+      "domain": "real",
+      "title": "Burger-box assembly",
+      "titleZh": "将汉堡装入餐盒并合盖",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8667336073656949,
+        "lpips": 0.016717097908258437,
+        "mse": 0.0014162020524963737
+      },
+      "assetPrefix": "assets/images/predictions/burger",
+      "width": 224,
+      "height": 224,
+      "taskId": 15,
+      "sampleType": "archived-training",
+      "metricBasis": "saved-rgb"
+    },
+    {
       "key": "phone",
       "domain": "real",
       "title": "Pack a phone into its box",
@@ -1929,88 +1954,88 @@
     {
       "id": 3,
       "start": 16.333333333333332,
-      "end": 25.75,
+      "end": 24.0,
       "speed": 4
     },
     {
       "id": 4,
-      "start": 25.75,
-      "end": 35.208333333333336,
+      "start": 24.0,
+      "end": 33.458333333333336,
       "speed": 4
     },
     {
       "id": 5,
-      "start": 35.208333333333336,
-      "end": 41.291666666666664,
+      "start": 33.458333333333336,
+      "end": 39.541666666666664,
       "speed": 4
     },
     {
       "id": 6,
-      "start": 41.291666666666664,
-      "end": 51.875,
+      "start": 39.541666666666664,
+      "end": 50.125,
       "speed": 4
     },
     {
       "id": 7,
-      "start": 51.875,
-      "end": 58.958333333333336,
+      "start": 50.125,
+      "end": 57.208333333333336,
       "speed": 4
     },
     {
       "id": 8,
-      "start": 58.958333333333336,
-      "end": 63.75,
+      "start": 57.208333333333336,
+      "end": 62.0,
       "speed": 4
     },
     {
       "id": 9,
-      "start": 63.75,
-      "end": 69.95833333333333,
+      "start": 62.0,
+      "end": 68.20833333333333,
       "speed": 4
     },
     {
       "id": 10,
-      "start": 69.95833333333333,
-      "end": 73.5,
+      "start": 68.20833333333333,
+      "end": 71.75,
       "speed": 4
     },
     {
       "id": 11,
-      "start": 73.5,
-      "end": 80.20833333333333,
+      "start": 71.75,
+      "end": 78.45833333333333,
       "speed": 4
     },
     {
       "id": 12,
-      "start": 80.20833333333333,
-      "end": 87.33333333333333,
+      "start": 78.45833333333333,
+      "end": 85.58333333333333,
       "speed": 4
     },
     {
       "id": 13,
-      "start": 87.33333333333333,
-      "end": 92.625,
+      "start": 85.58333333333333,
+      "end": 90.875,
       "speed": 4
     },
     {
       "id": 14,
-      "start": 92.625,
-      "end": 96.125,
+      "start": 90.875,
+      "end": 94.375,
       "speed": 4
     },
     {
       "id": 15,
-      "start": 96.125,
-      "end": 101.91666666666667,
+      "start": 94.375,
+      "end": 100.16666666666667,
       "speed": 4
     },
     {
       "id": 16,
-      "start": 101.91666666666667,
-      "end": 117.41666666666667,
+      "start": 100.16666666666667,
+      "end": 115.66666666666667,
       "speed": 4
     }
   ],
   "highlightSpeed": 4,
-  "highlightDuration": 117.41666666666667
+  "highlightDuration": 115.66666666666667
 }
