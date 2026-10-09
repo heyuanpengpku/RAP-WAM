@@ -1,0 +1,2016 @@
+{
+  "methods": [
+    "π0.5",
+    "X-WAM",
+    "OpenWAM-α",
+    "Xiaomi-Robotics-1",
+    "G0.5",
+    "RAP-WAM"
+  ],
+  "macro15": [
+    9.666666666666666,
+    37.33333333333333,
+    46.666666666666664,
+    49.66666666666667,
+    51.33333333333333,
+    89.0
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Circle-size selection",
+      "titleZh": "盖住最大和最小的圆圈",
+      "category": "Reasoning",
+      "sr": [
+        0.05,
+        0.25,
+        0.25,
+        0.3,
+        0.45,
+        0.95
+      ],
+      "video": "assets/videos/task-01.mp4",
+      "poster": "assets/images/task-01.webp",
+      "supplementary": false,
+      "duration": 32.0
+    },
+    {
+      "id": 2,
+      "title": "Unpack and place cake",
+      "titleZh": "拆开蛋糕包装并将蛋糕放入碗中",
+      "category": "Assembly",
+      "sr": [
+        0.1,
+        0.25,
+        0.3,
+        0.45,
+        0.45,
+        0.95
+      ],
+      "video": "assets/videos/task-02.mp4",
+      "poster": "assets/images/task-02.webp",
+      "supplementary": false,
+      "duration": 33.166666666666664
+    },
+    {
+      "id": 3,
+      "title": "Fruit placement",
+      "titleZh": "将水果放入托盘",
+      "category": "Manipulation",
+      "sr": [
+        0.15,
+        0.35,
+        0.5,
+        0.6,
+        0.65,
+        0.95
+      ],
+      "video": "assets/videos/task-03.mp4",
+      "poster": "assets/images/task-03.webp",
+      "supplementary": false,
+      "duration": 37.666666666666664
+    },
+    {
+      "id": 4,
+      "title": "Height-based bottle ordering",
+      "titleZh": "按高度重新排序三种不同类型的瓶子",
+      "category": "Reasoning",
+      "sr": [
+        0.1,
+        0.2,
+        0.25,
+        0.3,
+        0.2,
+        0.9
+      ],
+      "video": "assets/videos/task-04.mp4",
+      "poster": "assets/images/task-04.webp",
+      "supplementary": false,
+      "duration": 37.833333333333336
+    },
+    {
+      "id": 5,
+      "title": "Bowl nesting",
+      "titleZh": "嵌套三个碗",
+      "category": "Assembly",
+      "sr": [
+        0.0,
+        0.45,
+        0.4,
+        0.55,
+        0.7,
+        0.85
+      ],
+      "video": "assets/videos/task-05.mp4",
+      "poster": "assets/images/task-05.webp",
+      "supplementary": false,
+      "duration": 24.208333333333332
+    },
+    {
+      "id": 6,
+      "title": "Numbered-block rearrangement",
+      "titleZh": "重排数字方块",
+      "category": "Reasoning",
+      "sr": [
+        0.0,
+        0.3,
+        0.2,
+        0.25,
+        0.4,
+        0.85
+      ],
+      "video": "assets/videos/task-06.mp4",
+      "poster": "assets/images/task-06.webp",
+      "supplementary": false,
+      "duration": 42.291666666666664
+    },
+    {
+      "id": 7,
+      "title": "Three-can tray placement",
+      "titleZh": "将三个易拉罐放入托盘",
+      "category": "Manipulation",
+      "sr": [
+        0.05,
+        0.55,
+        0.65,
+        0.65,
+        0.7,
+        1.0
+      ],
+      "video": "assets/videos/task-07.mp4",
+      "poster": "assets/images/task-07.webp",
+      "supplementary": false,
+      "duration": 28.25
+    },
+    {
+      "id": 8,
+      "title": "Numerical extrema selection",
+      "titleZh": "盖住最大和最小的数",
+      "category": "Reasoning",
+      "sr": [
+        0.0,
+        0.3,
+        0.35,
+        0.3,
+        0.4,
+        0.9
+      ],
+      "video": "assets/videos/task-08.mp4",
+      "poster": "assets/images/task-08.webp",
+      "supplementary": false,
+      "duration": 19.125
+    },
+    {
+      "id": 9,
+      "title": "Food placement",
+      "titleZh": "将食物分别放入餐具",
+      "category": "Manipulation",
+      "sr": [
+        0.2,
+        0.6,
+        0.8,
+        0.7,
+        0.65,
+        1.0
+      ],
+      "video": "assets/videos/task-09.mp4",
+      "poster": "assets/images/task-09.webp",
+      "supplementary": false,
+      "duration": 24.75
+    },
+    {
+      "id": 10,
+      "title": "Can-on-coaster placement",
+      "titleZh": "将易拉罐放在杯垫上",
+      "category": "Manipulation",
+      "sr": [
+        0.45,
+        0.75,
+        0.95,
+        0.9,
+        0.85,
+        1.0
+      ],
+      "video": "assets/videos/task-10.mp4",
+      "poster": "assets/images/task-10.webp",
+      "supplementary": false,
+      "duration": 14.166666666666666
+    },
+    {
+      "id": 11,
+      "title": "Fan insertion",
+      "titleZh": "将扇子插入开口朝上的容器",
+      "category": "Assembly",
+      "sr": [
+        0.05,
+        0.35,
+        0.55,
+        0.45,
+        0.25,
+        0.7
+      ],
+      "video": "assets/videos/task-11.mp4",
+      "poster": "assets/images/task-11.webp",
+      "supplementary": false,
+      "duration": 26.833333333333332
+    },
+    {
+      "id": 12,
+      "title": "Towel organization",
+      "titleZh": "归位整理一次性毛巾，并将厚毛巾放到其上方",
+      "category": "Manipulation",
+      "sr": [
+        0.0,
+        0.3,
+        0.45,
+        0.55,
+        0.45,
+        0.8
+      ],
+      "video": "assets/videos/task-12.mp4",
+      "poster": "assets/images/task-12.webp",
+      "supplementary": false,
+      "duration": 28.458333333333332
+    },
+    {
+      "id": 13,
+      "title": "Shoe organization",
+      "titleZh": "整理一双鞋",
+      "category": "Manipulation",
+      "sr": [
+        0.3,
+        0.5,
+        0.75,
+        0.8,
+        0.7,
+        0.9
+      ],
+      "video": "assets/videos/task-13.mp4",
+      "poster": "assets/images/task-13.webp",
+      "supplementary": false,
+      "duration": 21.166666666666668
+    },
+    {
+      "id": 14,
+      "title": "Mahjong kong formation",
+      "titleZh": "杠牌",
+      "category": "Reasoning",
+      "sr": [
+        0.0,
+        0.1,
+        0.2,
+        0.25,
+        0.35,
+        0.85
+      ],
+      "video": "assets/videos/task-14.mp4",
+      "poster": "assets/images/task-14.webp",
+      "supplementary": false,
+      "duration": 13.958333333333334
+    },
+    {
+      "id": 15,
+      "title": "Burger-box assembly",
+      "titleZh": "将汉堡装入餐盒并合盖",
+      "category": "Assembly",
+      "sr": [
+        0.0,
+        0.35,
+        0.4,
+        0.4,
+        0.5,
+        0.75
+      ],
+      "video": "assets/videos/task-15.mp4",
+      "poster": "assets/images/task-15.webp",
+      "supplementary": false,
+      "duration": 23.041666666666668
+    },
+    {
+      "id": 16,
+      "title": "Phone-box assembly",
+      "titleZh": "将手机装盒并盖上盒盖",
+      "category": "Assembly",
+      "sr": [
+        0.05,
+        null,
+        null,
+        null,
+        null,
+        0.85
+      ],
+      "video": "assets/videos/task-16.mp4",
+      "poster": "assets/images/task-16.webp",
+      "supplementary": true,
+      "duration": 62.0
+    }
+  ],
+  "simulation": {
+    "capabilities": [
+      "Generalization",
+      "Precision",
+      "Long-Horizon",
+      "Memory",
+      "Open"
+    ],
+    "base": {
+      "Generalization": {
+        "sr": 7.5,
+        "score": 11.183333333333332
+      },
+      "Precision": {
+        "sr": 16.510204081632654,
+        "score": 23.96938775510204
+      },
+      "Long-Horizon": {
+        "sr": 32.5,
+        "score": 45.11931818181818
+      },
+      "Memory": {
+        "sr": 7.0,
+        "score": 7.966666666666668
+      },
+      "Open": {
+        "sr": 0.75,
+        "score": 1.0625
+      }
+    },
+    "system": {
+      "Generalization": {
+        "sr": 10.5,
+        "score": 14.375000000000002
+      },
+      "Precision": {
+        "sr": 21.025510204081634,
+        "score": 28.661734693877552
+      },
+      "Long-Horizon": {
+        "sr": 36.5,
+        "score": 48.43181818181818
+      },
+      "Memory": {
+        "sr": 9.333333333333334,
+        "score": 10.316666666666668
+      },
+      "Open": {
+        "sr": 0.75,
+        "score": 1.1625
+      }
+    },
+    "baseAverage": {
+      "sr": 12.85204081632653,
+      "score": 17.860241187384045
+    },
+    "systemAverage": {
+      "sr": 15.621768707482994,
+      "score": 20.589543908472482
+    },
+    "tasks": [
+      {
+        "key": "align_blocks",
+        "title": "Align blocks",
+        "category": "Open",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.0,
+        "systemScore": 0.0
+      },
+      {
+        "key": "arrange_largest_number",
+        "title": "Arrange largest number",
+        "category": "Generalization",
+        "baseSr": 2.0,
+        "systemSr": 4.0,
+        "baseScore": 3.8,
+        "systemScore": 5.8
+      },
+      {
+        "key": "build_tower",
+        "title": "Build tower",
+        "category": "Precision",
+        "baseSr": 60.0,
+        "systemSr": 72.0,
+        "baseScore": 69.8,
+        "systemScore": 79.6
+      },
+      {
+        "key": "classify_objects",
+        "title": "Classify objects",
+        "category": "Long-Horizon",
+        "baseSr": 0.0,
+        "systemSr": 2.0,
+        "baseScore": 4.4,
+        "systemScore": 6.499999999999999
+      },
+      {
+        "key": "classify_objects_by_language",
+        "title": "Classify objects by language",
+        "category": "Open",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 1.6,
+        "systemScore": 1.6
+      },
+      {
+        "key": "cover_blocks",
+        "title": "Cover blocks",
+        "category": "Memory",
+        "baseSr": 16.0,
+        "systemSr": 22.0,
+        "baseScore": 20.6,
+        "systemScore": 26.100000000000012
+      },
+      {
+        "key": "deposit_coin",
+        "title": "Deposit coin",
+        "category": "Precision",
+        "baseSr": 4.081632653061225,
+        "systemSr": 10.204081632653061,
+        "baseScore": 7.75510204081633,
+        "systemScore": 14.693877551020412
+      },
+      {
+        "key": "fasten_screws",
+        "title": "Fasten screws",
+        "category": "Precision",
+        "baseSr": 2.0,
+        "systemSr": 8.0,
+        "baseScore": 18.6,
+        "systemScore": 27.6
+      },
+      {
+        "key": "fill_egg_holder",
+        "title": "Fill egg holder",
+        "category": "Long-Horizon",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 12.954545454545457,
+        "systemScore": 12.954545454545457
+      },
+      {
+        "key": "fill_pen_holder",
+        "title": "Fill pen holder",
+        "category": "Long-Horizon",
+        "baseSr": 6.0,
+        "systemSr": 18.0,
+        "baseScore": 32.0,
+        "systemScore": 43.39999999999999
+      },
+      {
+        "key": "fold_clothes",
+        "title": "Fold clothes",
+        "category": "Generalization",
+        "baseSr": 6.0,
+        "systemSr": 12.0,
+        "baseScore": 9.2,
+        "systemScore": 16.000000000000004
+      },
+      {
+        "key": "general_pickup",
+        "title": "General pickup",
+        "category": "Open",
+        "baseSr": 6.0,
+        "systemSr": 6.0,
+        "baseScore": 6.0,
+        "systemScore": 6.0
+      },
+      {
+        "key": "hang_mugs",
+        "title": "Hang mugs",
+        "category": "Generalization",
+        "baseSr": 0.0,
+        "systemSr": 2.0,
+        "baseScore": 3.8,
+        "systemScore": 7.299999999999999
+      },
+      {
+        "key": "imitate_sorting_sequence",
+        "title": "Imitate sorting sequence",
+        "category": "Memory",
+        "baseSr": 0.0,
+        "systemSr": 2.0,
+        "baseScore": 1.2,
+        "systemScore": 3.8
+      },
+      {
+        "key": "insert_key",
+        "title": "Insert key",
+        "category": "Precision",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 14.4,
+        "systemScore": 15.000000000000014
+      },
+      {
+        "key": "insert_tubes",
+        "title": "Insert tubes",
+        "category": "Precision",
+        "baseSr": 54.0,
+        "systemSr": 58.0,
+        "baseScore": 69.2,
+        "systemScore": 72.39999999999999
+      },
+      {
+        "key": "make_kong",
+        "title": "Make kong",
+        "category": "Long-Horizon",
+        "baseSr": 74.0,
+        "systemSr": 82.0,
+        "baseScore": 74.0,
+        "systemScore": 82.0
+      },
+      {
+        "key": "make_toast",
+        "title": "Make toast",
+        "category": "Generalization",
+        "baseSr": 4.0,
+        "systemSr": 10.0,
+        "baseScore": 14.0,
+        "systemScore": 18.0
+      },
+      {
+        "key": "match_and_pick_from_conveyor",
+        "title": "Match and pick from conveyor",
+        "category": "Memory",
+        "baseSr": 26.0,
+        "systemSr": 32.0,
+        "baseScore": 26.0,
+        "systemScore": 32.0
+      },
+      {
+        "key": "organize_table",
+        "title": "Organize table",
+        "category": "Long-Horizon",
+        "baseSr": 10.0,
+        "systemSr": 10.0,
+        "baseScore": 48.5,
+        "systemScore": 48.5
+      },
+      {
+        "key": "pack_objects_into_box",
+        "title": "Pack objects into box",
+        "category": "Generalization",
+        "baseSr": 2.0,
+        "systemSr": 6.0,
+        "baseScore": 14.7,
+        "systemScore": 17.2
+      },
+      {
+        "key": "pick_from_conveyor_by_image",
+        "title": "Pick from conveyor by image",
+        "category": "Open",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.0,
+        "systemScore": 0.0
+      },
+      {
+        "key": "play_Xylophone",
+        "title": "Play xylophone",
+        "category": "Precision",
+        "baseSr": 0.0,
+        "systemSr": 2.0,
+        "baseScore": 0.0,
+        "systemScore": 2.0
+      },
+      {
+        "key": "play_stacking_toy",
+        "title": "Play stacking toy",
+        "category": "Long-Horizon",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.6,
+        "systemScore": 2.0
+      },
+      {
+        "key": "play_tic_tac_toe",
+        "title": "Play tic tac toe",
+        "category": "Long-Horizon",
+        "baseSr": 80.0,
+        "systemSr": 86.0,
+        "baseScore": 94.5,
+        "systemScore": 96.0
+      },
+      {
+        "key": "plug_in_charger",
+        "title": "Plug in charger",
+        "category": "Precision",
+        "baseSr": 0.0,
+        "systemSr": 4.0,
+        "baseScore": 0.0,
+        "systemScore": 4.0
+      },
+      {
+        "key": "pour_balls_into_vase",
+        "title": "Pour balls into vase",
+        "category": "Precision",
+        "baseSr": 12.0,
+        "systemSr": 14.0,
+        "baseScore": 12.0,
+        "systemScore": 14.000000000000002
+      },
+      {
+        "key": "pour_by_language",
+        "title": "Pour by language",
+        "category": "Open",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.0,
+        "systemScore": 0.0
+      },
+      {
+        "key": "pour_liquid_into_cup",
+        "title": "Pour liquid into cup",
+        "category": "Generalization",
+        "baseSr": 0.0,
+        "systemSr": 4.0,
+        "baseScore": 0.0,
+        "systemScore": 4.0
+      },
+      {
+        "key": "press_by_number",
+        "title": "Press by number",
+        "category": "Memory",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.0,
+        "systemScore": 0.0
+      },
+      {
+        "key": "push_T",
+        "title": "Push t",
+        "category": "Generalization",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.0,
+        "systemScore": 0.0
+      },
+      {
+        "key": "put_bottles_into_dustbin",
+        "title": "Put bottles into dustbin",
+        "category": "Long-Horizon",
+        "baseSr": 90.0,
+        "systemSr": 94.0,
+        "baseScore": 94.0,
+        "systemScore": 96.1
+      },
+      {
+        "key": "solve_equation",
+        "title": "Solve equation",
+        "category": "Open",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.0,
+        "systemScore": 0.0
+      },
+      {
+        "key": "sort_nesting_dolls_by_size",
+        "title": "Sort nesting dolls by size",
+        "category": "Generalization",
+        "baseSr": 2.0,
+        "systemSr": 8.0,
+        "baseScore": 2.0,
+        "systemScore": 8.0
+      },
+      {
+        "key": "stack_blocks",
+        "title": "Stack blocks",
+        "category": "Generalization",
+        "baseSr": 24.0,
+        "systemSr": 24.0,
+        "baseScore": 27.0,
+        "systemScore": 28.20000000000001
+      },
+      {
+        "key": "stack_blocks_by_language",
+        "title": "Stack blocks by language",
+        "category": "Open",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.4,
+        "systemScore": 1.2000000000000002
+      },
+      {
+        "key": "stack_bowls",
+        "title": "Stack bowls",
+        "category": "Generalization",
+        "baseSr": 40.0,
+        "systemSr": 42.0,
+        "baseScore": 42.1,
+        "systemScore": 43.2
+      },
+      {
+        "key": "store_laptop_and_headphones",
+        "title": "Store laptop and headphones",
+        "category": "Generalization",
+        "baseSr": 10.0,
+        "systemSr": 14.0,
+        "baseScore": 17.6,
+        "systemScore": 24.8
+      },
+      {
+        "key": "store_tools_in_toolbox",
+        "title": "Store tools in toolbox",
+        "category": "Open",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.5,
+        "systemScore": 0.5
+      },
+      {
+        "key": "swap_T",
+        "title": "Swap t",
+        "category": "Memory",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.0,
+        "systemScore": 0.0
+      },
+      {
+        "key": "swap_blocks",
+        "title": "Swap blocks",
+        "category": "Memory",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.0,
+        "systemScore": 0.0
+      },
+      {
+        "key": "sweep_blocks",
+        "title": "Sweep blocks",
+        "category": "Generalization",
+        "baseSr": 0.0,
+        "systemSr": 0.0,
+        "baseScore": 0.0,
+        "systemScore": 0.0
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "key": "circle",
+      "domain": "real",
+      "title": "Cover the largest and smallest circles",
+      "titleZh": "盖住最大和最小的圆圈",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8685759421198288,
+        "copy_ssim": 0.8433893792291066,
+        "lpips": 0.019182916916906833,
+        "copy_lpips": 0.04876276943832636,
+        "mse": 0.002154007856734097
+      },
+      "assetPrefix": "assets/images/predictions/circle",
+      "width": 173,
+      "height": 173,
+      "taskId": 1
+    },
+    {
+      "key": "cake",
+      "domain": "real",
+      "title": "Unpack the cake and place it in a bowl",
+      "titleZh": "拆开蛋糕包装并将蛋糕放入碗中",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8572004397089824,
+        "copy_ssim": 0.774947092150037,
+        "lpips": 0.024091528728604317,
+        "copy_lpips": 0.20371936410665512,
+        "mse": 0.002387932687997818
+      },
+      "assetPrefix": "assets/images/predictions/cake",
+      "width": 173,
+      "height": 173,
+      "taskId": 2
+    },
+    {
+      "key": "apple",
+      "domain": "real",
+      "title": "Place fruits on a tray",
+      "titleZh": "将水果放入托盘",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8798154743990179,
+        "copy_ssim": 0.8326846622072009,
+        "lpips": 0.013386937230825425,
+        "copy_lpips": 0.08336851485073567,
+        "mse": 0.001285220612771809
+      },
+      "assetPrefix": "assets/images/predictions/apple",
+      "width": 173,
+      "height": 173,
+      "taskId": 3
+    },
+    {
+      "key": "highlow",
+      "domain": "real",
+      "title": "Reorder three different types of bottles by height",
+      "titleZh": "按高度重新排序三种不同类型的瓶子",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8669520137702307,
+        "copy_ssim": 0.7272700503049573,
+        "lpips": 0.023086384683847428,
+        "copy_lpips": 0.16762744411826133,
+        "mse": 0.001644987426698208
+      },
+      "assetPrefix": "assets/images/predictions/highlow",
+      "width": 173,
+      "height": 173,
+      "taskId": 4
+    },
+    {
+      "key": "bowl",
+      "domain": "real",
+      "title": "Nest three bowls",
+      "titleZh": "嵌套三个碗",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8873806292309002,
+        "copy_ssim": 0.7873038612738931,
+        "lpips": 0.015171444416046143,
+        "copy_lpips": 0.07345985919237137,
+        "mse": 0.0010170884430408477
+      },
+      "assetPrefix": "assets/images/predictions/bowl",
+      "width": 173,
+      "height": 173,
+      "taskId": 5
+    },
+    {
+      "key": "number",
+      "domain": "real",
+      "title": "Rearrange numbered blocks",
+      "titleZh": "重排数字方块",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8974414021271333,
+        "copy_ssim": 0.8866558210942985,
+        "lpips": 0.012072325684130192,
+        "copy_lpips": 0.037576539907604456,
+        "mse": 0.001021219091489911
+      },
+      "assetPrefix": "assets/images/predictions/number",
+      "width": 173,
+      "height": 173,
+      "taskId": 6
+    },
+    {
+      "key": "can3",
+      "domain": "real",
+      "title": "Place three cans on a tray",
+      "titleZh": "将三个易拉罐放入托盘",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8673011784126583,
+        "copy_ssim": 0.7804554355687057,
+        "lpips": 0.019189316034317016,
+        "copy_lpips": 0.10459714382886887,
+        "mse": 0.0015786374220624565
+      },
+      "assetPrefix": "assets/images/predictions/can3",
+      "width": 173,
+      "height": 173,
+      "taskId": 7
+    },
+    {
+      "key": "bigsmall",
+      "domain": "real",
+      "title": "Cover the largest and smallest numbers",
+      "titleZh": "盖住最大和最小的数",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9038752203670392,
+        "copy_ssim": 0.850004440308368,
+        "lpips": 0.012477258034050465,
+        "copy_lpips": 0.06339333355426788,
+        "mse": 0.0010937958839349448
+      },
+      "assetPrefix": "assets/images/predictions/bigsmall",
+      "width": 173,
+      "height": 173,
+      "taskId": 8
+    },
+    {
+      "key": "threefood",
+      "domain": "real",
+      "title": "Place food in separate dishes",
+      "titleZh": "将食物分别放入餐具",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8992918146242566,
+        "copy_ssim": 0.8348259494669339,
+        "lpips": 0.012381256930530072,
+        "copy_lpips": 0.094273666664958,
+        "mse": 0.0008930533658713102
+      },
+      "assetPrefix": "assets/images/predictions/threefood",
+      "width": 173,
+      "height": 173,
+      "taskId": 9
+    },
+    {
+      "key": "can",
+      "domain": "real",
+      "title": "Place a can on a coaster",
+      "titleZh": "将易拉罐放在杯垫上",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8515268757640536,
+        "copy_ssim": 0.706040119432004,
+        "lpips": 0.02138291299343109,
+        "copy_lpips": 0.1232497364282608,
+        "mse": 0.0016266233287751675
+      },
+      "assetPrefix": "assets/images/predictions/can",
+      "width": 173,
+      "height": 173,
+      "taskId": 10
+    },
+    {
+      "key": "fan",
+      "domain": "real",
+      "title": "Insert a folding fan into an open-top vessel",
+      "titleZh": "将扇子插入开口朝上的容器",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8751217851639488,
+        "copy_ssim": 0.830476237523459,
+        "lpips": 0.018522421084344386,
+        "copy_lpips": 0.09508178737014532,
+        "mse": 0.0015997463604435324
+      },
+      "assetPrefix": "assets/images/predictions/fan",
+      "width": 173,
+      "height": 173,
+      "taskId": 11
+    },
+    {
+      "key": "towel",
+      "domain": "real",
+      "title": "Align disposable towels and place a thick towel on top",
+      "titleZh": "归位整理一次性毛巾，并将厚毛巾放到其上方",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9128178923593373,
+        "copy_ssim": 0.8118501317169023,
+        "lpips": 0.016119151189923287,
+        "copy_lpips": 0.12974794767796993,
+        "mse": 0.0009359214687719941
+      },
+      "assetPrefix": "assets/images/predictions/towel",
+      "width": 173,
+      "height": 173,
+      "taskId": 12
+    },
+    {
+      "key": "shoes",
+      "domain": "real",
+      "title": "Arrange a pair of shoes",
+      "titleZh": "整理一双鞋",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8687859776904595,
+        "copy_ssim": 0.8307510723130122,
+        "lpips": 0.016717006638646125,
+        "copy_lpips": 0.09830090403556824,
+        "mse": 0.0009186751442030073
+      },
+      "assetPrefix": "assets/images/predictions/shoes",
+      "width": 173,
+      "height": 173,
+      "taskId": 13
+    },
+    {
+      "key": "gangpaifinal",
+      "domain": "real",
+      "title": "Mahjong kong formation",
+      "titleZh": "杠牌",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8997855277962848,
+        "copy_ssim": 0.8882543308160786,
+        "lpips": 0.015298543125391006,
+        "copy_lpips": 0.03108513057231903,
+        "mse": 0.0010631926823407411
+      },
+      "assetPrefix": "assets/images/predictions/gangpaifinal",
+      "width": 173,
+      "height": 173,
+      "taskId": 14
+    },
+    {
+      "key": "phone",
+      "domain": "real",
+      "title": "Pack a phone into its box",
+      "titleZh": "将手机装盒并盖上盒盖",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8513016249889898,
+        "copy_ssim": 0.8231046912592076,
+        "lpips": 0.028229833766818046,
+        "copy_lpips": 0.06541545391082763,
+        "mse": 0.0011773385689593852
+      },
+      "assetPrefix": "assets/images/predictions/phone",
+      "width": 173,
+      "height": 173,
+      "taskId": 16
+    },
+    {
+      "key": "task_00",
+      "domain": "simulation",
+      "title": "Arrange numbers",
+      "titleZh": "排列数字",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9365558299507134,
+        "copy_ssim": 0.7359894611131816,
+        "lpips": 0.016779074259102345,
+        "copy_lpips": 0.2167461670935154,
+        "mse": 0.0005516282573807985
+      },
+      "assetPrefix": "assets/images/predictions/task_00",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_01",
+      "domain": "simulation",
+      "title": "Build a tower",
+      "titleZh": "搭建高塔",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9505297595959451,
+        "copy_ssim": 0.7859647161546185,
+        "lpips": 0.015385041013360023,
+        "copy_lpips": 0.17938448004424573,
+        "mse": 0.00039411064062733203
+      },
+      "assetPrefix": "assets/images/predictions/task_01",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_02",
+      "domain": "simulation",
+      "title": "Sort objects by category",
+      "titleZh": "按类别分拣物体",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9425632365409108,
+        "copy_ssim": 0.8639309492827068,
+        "lpips": 0.01734428256750107,
+        "copy_lpips": 0.08542589098215103,
+        "mse": 0.0007130104349926114
+      },
+      "assetPrefix": "assets/images/predictions/task_02",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_03",
+      "domain": "simulation",
+      "title": "Remember covered block colors",
+      "titleZh": "记忆被遮盖方块的颜色",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9632185883954211,
+        "copy_ssim": 0.8479463828624981,
+        "lpips": 0.009375473950058222,
+        "copy_lpips": 0.15592830926179885,
+        "mse": 0.000168565429339651
+      },
+      "assetPrefix": "assets/images/predictions/task_03",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_04",
+      "domain": "simulation",
+      "title": "Insert a coin",
+      "titleZh": "将硬币投入存钱罐",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9441158843499998,
+        "copy_ssim": 0.8004399673073428,
+        "lpips": 0.018235426023602487,
+        "copy_lpips": 0.18055547624826432,
+        "mse": 0.0007593447400722653
+      },
+      "assetPrefix": "assets/images/predictions/task_04",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_05",
+      "domain": "simulation",
+      "title": "Spell RoboDojo",
+      "titleZh": "拼出RoboDojo",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.8935403979693615,
+        "copy_ssim": 0.7134685028935724,
+        "lpips": 0.04259764812886715,
+        "copy_lpips": 0.21862716162577273,
+        "mse": 0.00224833203246817
+      },
+      "assetPrefix": "assets/images/predictions/task_05",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_06",
+      "domain": "simulation",
+      "title": "Tighten color-matched screws",
+      "titleZh": "拧紧颜色匹配的螺丝",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9655086065344953,
+        "copy_ssim": 0.9164921546762719,
+        "lpips": 0.00728849908336997,
+        "copy_lpips": 0.039962814562022685,
+        "mse": 0.00017782310023903847
+      },
+      "assetPrefix": "assets/images/predictions/task_06",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_07",
+      "domain": "simulation",
+      "title": "Store eggs and close the holder",
+      "titleZh": "收纳鸡蛋并合上盒盖",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9055252459460995,
+        "copy_ssim": 0.7933605893140362,
+        "lpips": 0.02911887764930725,
+        "copy_lpips": 0.1810466732829809,
+        "mse": 0.0023009351803921162
+      },
+      "assetPrefix": "assets/images/predictions/task_07",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_08",
+      "domain": "simulation",
+      "title": "Put pens into a holder",
+      "titleZh": "将笔放入笔筒",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9194510407214196,
+        "copy_ssim": 0.7832932075735055,
+        "lpips": 0.02966289669275284,
+        "copy_lpips": 0.21253918036818503,
+        "mse": 0.001268899638671428
+      },
+      "assetPrefix": "assets/images/predictions/task_08",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_09",
+      "domain": "simulation",
+      "title": "Fold clothes",
+      "titleZh": "折叠衣物",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9101895833254856,
+        "copy_ssim": 0.8419069508691395,
+        "lpips": 0.020858383178710936,
+        "copy_lpips": 0.09157728143036366,
+        "mse": 0.001479947823099792
+      },
+      "assetPrefix": "assets/images/predictions/task_09",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_10",
+      "domain": "simulation",
+      "title": "Hang mugs",
+      "titleZh": "悬挂杯子",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9418666345640441,
+        "copy_ssim": 0.890089246541466,
+        "lpips": 0.01910709124058485,
+        "copy_lpips": 0.07193522332236171,
+        "mse": 0.000869673304259777
+      },
+      "assetPrefix": "assets/images/predictions/task_10",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_11",
+      "domain": "simulation",
+      "title": "Recall object placement order",
+      "titleZh": "回忆物体放置顺序",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9563371253330301,
+        "copy_ssim": 0.8672224892970692,
+        "lpips": 0.012305142357945442,
+        "copy_lpips": 0.06036488022655249,
+        "mse": 0.000660585321020335
+      },
+      "assetPrefix": "assets/images/predictions/task_11",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_12",
+      "domain": "simulation",
+      "title": "Insert a thick card",
+      "titleZh": "插入厚卡片",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9532872298262891,
+        "copy_ssim": 0.8164298193631886,
+        "lpips": 0.01317450199276209,
+        "copy_lpips": 0.1363344147801399,
+        "mse": 0.0004891339282039553
+      },
+      "assetPrefix": "assets/images/predictions/task_12",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_13",
+      "domain": "simulation",
+      "title": "Place tubes in a rack",
+      "titleZh": "将管子放入架中",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9544134173765546,
+        "copy_ssim": 0.903813849049666,
+        "lpips": 0.010966609790921211,
+        "copy_lpips": 0.06317461989820003,
+        "mse": 0.00029133603966329246
+      },
+      "assetPrefix": "assets/images/predictions/task_13",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_14",
+      "domain": "simulation",
+      "title": "Form a mahjong kong",
+      "titleZh": "杠牌",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9574602114670107,
+        "copy_ssim": 0.9307222124771926,
+        "lpips": 0.01009303741157055,
+        "copy_lpips": 0.03663749839179218,
+        "mse": 0.0008695661032106728
+      },
+      "assetPrefix": "assets/images/predictions/task_14",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_15",
+      "domain": "simulation",
+      "title": "Toast bread",
+      "titleZh": "烤制面包",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9046869518717159,
+        "copy_ssim": 0.6490168887600712,
+        "lpips": 0.031369979679584506,
+        "copy_lpips": 0.31238765716552735,
+        "mse": 0.002114805416204035
+      },
+      "assetPrefix": "assets/images/predictions/task_15",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_16",
+      "domain": "simulation",
+      "title": "Match a remembered conveyor object",
+      "titleZh": "匹配记忆中的传送带物体",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.979984770082978,
+        "copy_ssim": 0.9807907668340302,
+        "lpips": 0.006532029993832111,
+        "copy_lpips": 0.009753527748398483,
+        "mse": 0.0001821445970563218
+      },
+      "assetPrefix": "assets/images/predictions/task_16",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_17",
+      "domain": "simulation",
+      "title": "Organize a desk",
+      "titleZh": "整理桌面",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9170831849057803,
+        "copy_ssim": 0.7345466923769646,
+        "lpips": 0.025200653076171874,
+        "copy_lpips": 0.2166316106915474,
+        "mse": 0.0013334095710888505
+      },
+      "assetPrefix": "assets/images/predictions/task_17",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_18",
+      "domain": "simulation",
+      "title": "Pack objects facing left",
+      "titleZh": "将物体朝左装盒",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9089551951656016,
+        "copy_ssim": 0.751572662253652,
+        "lpips": 0.03407776057720184,
+        "copy_lpips": 0.20048773288726807,
+        "mse": 0.0013361719669774176
+      },
+      "assetPrefix": "assets/images/predictions/task_18",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_19",
+      "domain": "simulation",
+      "title": "Play the xylophone",
+      "titleZh": "演奏木琴",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.923714590022165,
+        "copy_ssim": 0.7991665318251784,
+        "lpips": 0.022995905950665474,
+        "copy_lpips": 0.17533508390188218,
+        "mse": 0.001614273665472865
+      },
+      "assetPrefix": "assets/images/predictions/task_19",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_20",
+      "domain": "simulation",
+      "title": "Assemble a stacking toy",
+      "titleZh": "组装套柱玩具",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9518584147636788,
+        "copy_ssim": 0.8458237252962333,
+        "lpips": 0.013430407643318177,
+        "copy_lpips": 0.12946704141795634,
+        "mse": 0.0005944128090050072
+      },
+      "assetPrefix": "assets/images/predictions/task_20",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_21",
+      "domain": "simulation",
+      "title": "Play tic-tac-toe",
+      "titleZh": "下井字棋",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9680664380395847,
+        "copy_ssim": 0.8913731127305562,
+        "lpips": 0.00716931140050292,
+        "copy_lpips": 0.04502326473593712,
+        "mse": 0.00018420874839648605
+      },
+      "assetPrefix": "assets/images/predictions/task_21",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_22",
+      "domain": "simulation",
+      "title": "Plug in a charger",
+      "titleZh": "插入充电器",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9566953388008761,
+        "copy_ssim": 0.8182540754835426,
+        "lpips": 0.013813397288322449,
+        "copy_lpips": 0.1935920774936676,
+        "mse": 0.00035628225014079363
+      },
+      "assetPrefix": "assets/images/predictions/task_22",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_23",
+      "domain": "simulation",
+      "title": "Pour balls into a vase",
+      "titleZh": "将球倒入花瓶",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.919109089785034,
+        "copy_ssim": 0.6755896756647042,
+        "lpips": 0.02527613565325737,
+        "copy_lpips": 0.2615080028772354,
+        "mse": 0.0013114156085066498
+      },
+      "assetPrefix": "assets/images/predictions/task_23",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_24",
+      "domain": "simulation",
+      "title": "Pour liquid into a cup",
+      "titleZh": "将液体倒入杯中",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9725415194745359,
+        "copy_ssim": 0.964787454030103,
+        "lpips": 0.0073943912982940676,
+        "copy_lpips": 0.012989508057944476,
+        "mse": 0.00017240346351172776
+      },
+      "assetPrefix": "assets/images/predictions/task_24",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_25",
+      "domain": "simulation",
+      "title": "Count button presses",
+      "titleZh": "按数字按动按钮",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9416611545822426,
+        "copy_ssim": 0.6707011717962624,
+        "lpips": 0.016930090356618167,
+        "copy_lpips": 0.3210702985525131,
+        "mse": 0.0004580018779961392
+      },
+      "assetPrefix": "assets/images/predictions/task_25",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_26",
+      "domain": "simulation",
+      "title": "Align a T-shaped block",
+      "titleZh": "对齐T形块",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9442948412854658,
+        "copy_ssim": 0.880181395983217,
+        "lpips": 0.0175412617623806,
+        "copy_lpips": 0.11547729186713696,
+        "mse": 0.0005045036959927529
+      },
+      "assetPrefix": "assets/images/predictions/task_26",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_27",
+      "domain": "simulation",
+      "title": "Discard bottles",
+      "titleZh": "丢弃瓶子",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.895789519361983,
+        "copy_ssim": 0.6743668791019775,
+        "lpips": 0.05431768223643303,
+        "copy_lpips": 0.23779136091470718,
+        "mse": 0.002749645942822099
+      },
+      "assetPrefix": "assets/images/predictions/task_27",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_28",
+      "domain": "simulation",
+      "title": "Order nesting dolls",
+      "titleZh": "按大小排列套娃",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9205847270012372,
+        "copy_ssim": 0.9068327741730021,
+        "lpips": 0.03224672172218561,
+        "copy_lpips": 0.08122216060546635,
+        "mse": 0.0031982802058337255
+      },
+      "assetPrefix": "assets/images/predictions/task_28",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_29",
+      "domain": "simulation",
+      "title": "Stack textured blocks",
+      "titleZh": "堆叠不同纹理的方块",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9554526131715754,
+        "copy_ssim": 0.9262248513732899,
+        "lpips": 0.011822051275521517,
+        "copy_lpips": 0.06044381780957338,
+        "mse": 0.0002707551684579812
+      },
+      "assetPrefix": "assets/images/predictions/task_29",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_30",
+      "domain": "simulation",
+      "title": "Stack bowls",
+      "titleZh": "堆叠碗",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9634119781093146,
+        "copy_ssim": 0.8926971085889296,
+        "lpips": 0.010606128256767988,
+        "copy_lpips": 0.07656562998890877,
+        "mse": 0.0004619488929165527
+      },
+      "assetPrefix": "assets/images/predictions/task_30",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_31",
+      "domain": "simulation",
+      "title": "Store headphones and a laptop",
+      "titleZh": "收纳耳机与笔记本电脑",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9560129702218065,
+        "copy_ssim": 0.8313781479324899,
+        "lpips": 0.012285850755870343,
+        "copy_lpips": 0.06764430664479733,
+        "mse": 0.0008928559429477901
+      },
+      "assetPrefix": "assets/images/predictions/task_31",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_32",
+      "domain": "simulation",
+      "title": "Swap T-shaped blocks",
+      "titleZh": "交换T形块",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.960362659687567,
+        "copy_ssim": 0.8336726969866927,
+        "lpips": 0.009754716418683529,
+        "copy_lpips": 0.10207859352231026,
+        "mse": 0.00027386342990212145
+      },
+      "assetPrefix": "assets/images/predictions/task_32",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_33",
+      "domain": "simulation",
+      "title": "Swap blocks via an empty mat",
+      "titleZh": "借助空垫交换方块",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9655999219480613,
+        "copy_ssim": 0.8737360079884333,
+        "lpips": 0.0067211993969976905,
+        "copy_lpips": 0.044605026766657827,
+        "mse": 0.00017242897883988916
+      },
+      "assetPrefix": "assets/images/predictions/task_33",
+      "width": 173,
+      "height": 208
+    },
+    {
+      "key": "task_34",
+      "domain": "simulation",
+      "title": "Sweep blocks",
+      "titleZh": "清扫方块",
+      "offsets": [
+        1,
+        4,
+        8,
+        12,
+        16
+      ],
+      "metrics": {
+        "ssim": 0.9572812829980102,
+        "copy_ssim": 0.8904785509789981,
+        "lpips": 0.013277244195342064,
+        "copy_lpips": 0.07903079017996788,
+        "mse": 0.0005055738147348166
+      },
+      "assetPrefix": "assets/images/predictions/task_34",
+      "width": 173,
+      "height": 208
+    }
+  ],
+  "highlightSegments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 8.041666666666666,
+      "speed": 4
+    },
+    {
+      "id": 2,
+      "start": 8.041666666666666,
+      "end": 16.333333333333332,
+      "speed": 4
+    },
+    {
+      "id": 3,
+      "start": 16.333333333333332,
+      "end": 25.75,
+      "speed": 4
+    },
+    {
+      "id": 4,
+      "start": 25.75,
+      "end": 35.208333333333336,
+      "speed": 4
+    },
+    {
+      "id": 5,
+      "start": 35.208333333333336,
+      "end": 41.291666666666664,
+      "speed": 4
+    },
+    {
+      "id": 6,
+      "start": 41.291666666666664,
+      "end": 51.875,
+      "speed": 4
+    },
+    {
+      "id": 7,
+      "start": 51.875,
+      "end": 58.958333333333336,
+      "speed": 4
+    },
+    {
+      "id": 8,
+      "start": 58.958333333333336,
+      "end": 63.75,
+      "speed": 4
+    },
+    {
+      "id": 9,
+      "start": 63.75,
+      "end": 69.95833333333333,
+      "speed": 4
+    },
+    {
+      "id": 10,
+      "start": 69.95833333333333,
+      "end": 73.5,
+      "speed": 4
+    },
+    {
+      "id": 11,
+      "start": 73.5,
+      "end": 80.20833333333333,
+      "speed": 4
+    },
+    {
+      "id": 12,
+      "start": 80.20833333333333,
+      "end": 87.33333333333333,
+      "speed": 4
+    },
+    {
+      "id": 13,
+      "start": 87.33333333333333,
+      "end": 92.625,
+      "speed": 4
+    },
+    {
+      "id": 14,
+      "start": 92.625,
+      "end": 96.125,
+      "speed": 4
+    },
+    {
+      "id": 15,
+      "start": 96.125,
+      "end": 101.91666666666667,
+      "speed": 4
+    },
+    {
+      "id": 16,
+      "start": 101.91666666666667,
+      "end": 117.41666666666667,
+      "speed": 4
+    }
+  ],
+  "highlightSpeed": 4,
+  "highlightDuration": 117.41666666666667
+}

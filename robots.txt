@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://heyuanpengpku.github.io/RAP-WAM/sitemap.xml
