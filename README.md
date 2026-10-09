@@ -14,7 +14,7 @@ This repository contains the research project website. It is not a release of th
 
 A responsive English/Chinese project page with:
 
-- An overview reel covering all 16 complete real-robot recordings at 4× speed, with task chapter navigation; individual recordings retain original-speed playback.
+- An overview reel covering all 16 complete real-robot recordings at 4× speed, with continuous playback; individual recordings retain original-speed playback.
 - Six-method real-robot comparisons, task selection, and downloadable CSV data.
 - Base/system comparisons across five RoboDojo capabilities and 42 searchable task results.
 - Interactive paired recorded/predicted training-frame comparisons for all 51 available examples (16 real-robot and 35 simulation), with domain filters, task search, thumbnails, previous/next controls, and five future offsets.
@@ -50,3 +50,5 @@ The homepage identifies Peking University as the leading institution. Its unalte
 Author affiliations: Yuanpeng He, Wenpin Jiao, Zhi Jin and Yaodong Yang — Peking University; Fangjing Li — Beijing Jiaotong University; Lijian Li — University of Macau; Ceyao Zhang, Kefei Zhu, Yueheng Li, Tianjia He and Yuanpei Chen — Psibot. The public manuscript uses superscript institution indices.
 
 Fruit placement has its 7.1-second stationary introduction removed in both the individual video and the overview reel. Burger-box assembly now includes a verified final-step training GT/prediction visualization; its SSIM and LPIPS are computed from the five saved RGB pairs, and this basis is disclosed in the viewer.
+
+The homepage plays one continuous overview video containing all 16 tasks. Individual-task controls appear only in the robot demo gallery.
