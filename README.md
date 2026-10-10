@@ -38,7 +38,7 @@ GitHub Pages serves the repository root on the `main` branch. `.nojekyll` enable
 - `app.js`: interactive views and language switching.
 - `styles.css`: responsive visual design.
 - `data/results.json`: manuscript-aligned result values; absent supplementary baseline values remain `null`.
-- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-smooth-1080p60.mp4` combines all 16 task executions with opening/closing graphics and a slower phone-box finale. Videos use progressive-download fast-start metadata.
+- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-entry-smooth-1080p60.mp4` combines all 16 task executions with opening/closing graphics and a slower phone-box finale. Videos use progressive-download fast-start metadata.
 - `assets/images/`: original video posters and exported manuscript figures/paired prediction frames. No generative image editing is used.
 - `assets/paper/rap-wam-public.pdf`: public English manuscript with author attribution and clearly marked appendix.
 - `assets/fonts/`: self-hosted Inter and Space Grotesk, with SIL Open Font Licenses.
@@ -64,3 +64,5 @@ The overview preserves the phone-box assembly through the finishing touch (sourc
 The overview is encoded at 1920×1080 and 60 fps, rebuilt from source recordings. Opening/closing typography uses the same self-hosted project fonts, rendered at 3840×2160 before antialiased downsampling; the touch ripple is also supersampled. The web encoding uses H.264 CRF 20 with a 5 Mbps bitrate cap and fast-start metadata.
 
 The 60 fps overview samples 15 original frames per source second in its 4× portions, versus six in the earlier 24 fps edit. It uses recorded frames rather than motion-generated intermediate views. The phone-box finale retains its 2× and 1× sections, and scene/loop transitions are resampled at the new output frame rate.
+
+Each scene enters with a one-second smooth speed ramp from 1× to 4×. Scene cuts use overlapping continuous outgoing/incoming footage with a cosine dissolve, without the earlier end-frame holds. The final touch, closing title and loop remain synchronized to the revised timeline.

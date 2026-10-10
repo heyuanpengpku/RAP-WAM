@@ -1943,119 +1943,196 @@
       "id": 1,
       "start": 0.0,
       "speed": 4,
-      "end": 7.425
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 7.375
     },
     {
       "id": 2,
-      "start": 7.425,
+      "start": 7.375,
       "speed": 4,
-      "end": 14.891666666666667
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 14.808333333333334
     },
     {
       "id": 3,
-      "start": 14.891666666666667,
+      "start": 14.808333333333334,
       "speed": 4,
-      "end": 20.525
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 20.408333333333335
     },
     {
       "id": 4,
-      "start": 20.525,
+      "start": 20.408333333333335,
       "speed": 4,
-      "end": 29.491666666666667
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 29.341666666666665
     },
     {
       "id": 5,
-      "start": 29.491666666666667,
+      "start": 29.341666666666665,
       "speed": 4,
-      "end": 34.69166666666667
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 34.49166666666667
     },
     {
       "id": 6,
-      "start": 34.69166666666667,
+      "start": 34.49166666666667,
       "speed": 4,
-      "end": 44.708333333333336
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 44.475
     },
     {
       "id": 7,
-      "start": 44.708333333333336,
+      "start": 44.475,
       "speed": 4,
-      "end": 51.05833333333333
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 50.775
     },
     {
       "id": 8,
-      "start": 51.05833333333333,
+      "start": 50.775,
       "speed": 4,
-      "end": 55.375
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 55.05833333333333
     },
     {
       "id": 9,
-      "start": 55.375,
+      "start": 55.05833333333333,
       "speed": 4,
-      "end": 61.19166666666667
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 60.84166666666667
     },
     {
       "id": 10,
-      "start": 61.19166666666667,
+      "start": 60.84166666666667,
       "speed": 4,
-      "end": 64.30833333333334
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 63.925
     },
     {
       "id": 11,
-      "start": 64.30833333333334,
+      "start": 63.925,
       "speed": 4,
-      "end": 70.375
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 69.95833333333333
     },
     {
       "id": 12,
-      "start": 70.375,
+      "start": 69.95833333333333,
       "speed": 4,
-      "end": 75.94166666666666
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 75.49166666666666
     },
     {
       "id": 13,
-      "start": 75.94166666666666,
+      "start": 75.49166666666666,
       "speed": 4,
-      "end": 80.70833333333333
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 80.225
     },
     {
       "id": 14,
-      "start": 80.70833333333333,
+      "start": 80.225,
       "speed": 4,
-      "end": 83.775
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 83.25833333333334
     },
     {
       "id": 15,
-      "start": 83.775,
+      "start": 83.25833333333334,
       "speed": 4,
-      "end": 88.79166666666667
+      "entryRampSeconds": 1.0,
+      "speedProfile": [
+        1,
+        4
+      ],
+      "end": 88.24166666666666
     },
     {
       "id": 16,
-      "start": 88.79166666666667,
+      "start": 88.24166666666666,
       "speed": null,
+      "entryRampSeconds": 1.0,
       "speedProfile": [
+        1,
         4,
         2,
         1
       ],
-      "end": 107.41666666666667
+      "end": 107.25
     }
   ],
   "highlightSpeed": 4,
-  "highlightDuration": 107.41666666666667,
+  "highlightDuration": 107.25,
   "highlightLoopTransition": {
-    "start": 106.91666666666667,
-    "labelSwitch": 107.16666666666667,
-    "end": 107.41666666666667
+    "start": 106.75,
+    "labelSwitch": 107.0,
+    "end": 107.25
   },
   "highlightTransitionSeconds": 0.25,
   "highlightFinale": {
     "taskId": 16,
     "sourceEnd": 59.25,
     "touchSourceTime": 58.4,
-    "touchVideoTime": 104.81666666666666,
-    "normalSpeedStart": 103.91666666666667,
-    "closingTitleStart": 105.71666666666667,
+    "touchVideoTime": 104.65,
+    "normalSpeedStart": 103.75,
+    "closingTitleStart": 105.55000000000001,
     "openingSeconds": 1.2,
     "loopTransitionSeconds": 0.5
   },
@@ -2063,5 +2140,6 @@
     "width": 1920,
     "height": 1080,
     "fps": 60
-  }
+  },
+  "highlightEntryRampSeconds": 1.0
 }
