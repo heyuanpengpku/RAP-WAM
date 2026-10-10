@@ -34,3 +34,5 @@
 .rehearsal-color,.paper-title em.rehearsal-color{color:var(--rehearsal-blue)}
 .perturbation-color,.paper-title em.perturbation-color{color:var(--perturbation-red)}
 html[lang="zh-CN"] .paper-title .desktop-break{display:none}
+
+.math-symbol{font-size:1em;vertical-align:baseline}.prior-output .math-symbol,.condition-flow .math-symbol{margin-inline:2px}
