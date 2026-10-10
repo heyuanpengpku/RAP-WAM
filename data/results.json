@@ -2056,7 +2056,11 @@
     "touchVideoTime": 105.125,
     "normalSpeedStart": 104.20833333333333,
     "closingTitleStart": 106.025,
-    "openingSeconds": 1.1,
+    "openingSeconds": 1.2,
     "loopTransitionSeconds": 0.5
+  },
+  "highlightVideoResolution": {
+    "width": 1920,
+    "height": 1080
   }
 }

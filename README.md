@@ -38,7 +38,7 @@ GitHub Pages serves the repository root on the `main` branch. `.nojekyll` enable
 - `app.js`: interactive views and language switching.
 - `styles.css`: responsive visual design.
 - `data/results.json`: manuscript-aligned result values; absent supplementary baseline values remain `null`.
-- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-cinematic.mp4` combines all 16 task executions with opening/closing graphics and a slower phone-box finale. Videos use progressive-download fast-start metadata.
+- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-cinematic-1080p.mp4` combines all 16 task executions with opening/closing graphics and a slower phone-box finale. Videos use progressive-download fast-start metadata.
 - `assets/images/`: original video posters and exported manuscript figures/paired prediction frames. No generative image editing is used.
 - `assets/paper/rap-wam-public.pdf`: public English manuscript with author attribution and clearly marked appendix.
 - `assets/fonts/`: self-hosted Inter and Space Grotesk, with SIL Open Font Licenses.
@@ -60,3 +60,5 @@ The method explorer defines Coupled Action Projection (CAP), illustrates its add
 Towel organization uses the newly supplied 25-second recording in the gallery and homepage overview. Its poster is refreshed from the same recording; the overview ends this task at object placement/release and retains the short cross-dissolve edit. Videos remain silent.
 
 The overview preserves the phone-box assembly through the finishing touch (source 58.4 seconds), then adds a blue/red ripple and closing title. A matching opening title and a short dissolve form the loop. These are presentation overlays; individual execution recordings remain unchanged.
+
+The overview is encoded at 1920×1080, rebuilt from source recordings. Opening/closing typography uses the same self-hosted project fonts, rendered at 3840×2160 before antialiased downsampling; the touch ripple is also supersampled. The web encoding uses H.264 CRF 20 with a 4.5 Mbps bitrate cap and fast-start metadata.
