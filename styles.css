@@ -28,3 +28,9 @@
 @media(max-width:520px){.cap-explanation h4{font-size:20px}.cap-explanation p,.rehearsal-roles p{font-size:12px}.cap-diagram{gap:7px}.cap-heads>span{font-size:9px;padding:10px 8px}.cap-input,.cap-output{font-size:21px}.cap-diagram small{font-size:8px;max-width:60px}.cap-plus{width:23px;height:23px;font-size:17px}.cap-arrow{font-size:15px}.cap-final{font-size:9px;line-height:1.6}.rehearsal-roles{grid-template-columns:1fr;gap:24px}.rehearsal-roles h4{font-size:19px}.rehearsal-stage{padding:14px 10px}.rehearsal-stage h4{font-size:16px}.rehearsal-arrow{font-size:18px}.rehearsal-chain{gap:8px}.forecast-strip{gap:3px}.forecast-strip>span{font-size:8px;padding:12px 1px}.prefix-and-targets>span{font-size:8px;padding:10px 3px}.rehearsal-stage p{font-size:9px}.rehearsal-feedback{font-size:9px;gap:8px}.prior-output{padding:8px}.rehearsal-story-label{font-size:7px}}
 
 #method-title{text-wrap:balance}
+
+/* The acronym and its two method components share the same color key. */
+:root{--rehearsal-blue:#386fa4;--perturbation-red:#bb4d48}
+.rehearsal-color,.paper-title em.rehearsal-color{color:var(--rehearsal-blue)}
+.perturbation-color,.paper-title em.perturbation-color{color:var(--perturbation-red)}
+html[lang="zh-CN"] .paper-title .desktop-break{display:none}
