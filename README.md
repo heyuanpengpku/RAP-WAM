@@ -38,7 +38,7 @@ GitHub Pages serves the repository root on the `main` branch. `.nojekyll` enable
 - `app.js`: interactive views and language switching.
 - `styles.css`: responsive visual design.
 - `data/results.json`: manuscript-aligned result values; absent supplementary baseline values remain `null`.
-- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-with-music-1080p60.mp4` combines all 16 task executions with opening/closing graphics and a slower phone-box finale. Videos use progressive-download fast-start metadata.
+- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-camera-clean-scored-1080p60.mp4` combines all 16 task executions with opening/closing graphics and a slower phone-box finale. Videos use progressive-download fast-start metadata.
 - `assets/images/`: original video posters and exported manuscript figures/paired prediction frames. No generative image editing is used.
 - `assets/paper/rap-wam-public.pdf`: public English manuscript with author attribution and clearly marked appendix.
 - `assets/fonts/`: self-hosted Inter and Space Grotesk, with SIL Open Font Licenses.
@@ -65,6 +65,8 @@ The overview is encoded at 1920×1080 and 60 fps, rebuilt from source recordings
 
 The 60 fps overview samples 15 original frames per source second in its 4× portions, versus six in the earlier 24 fps edit. It uses recorded frames rather than motion-generated intermediate views. The phone-box finale retains its 2× and 1× sections, and scene/loop transitions are resampled at the new output frame rate.
 
-Each scene enters with a one-second smooth speed ramp from 1× to 4×. Scene cuts use overlapping continuous outgoing/incoming footage with a cosine dissolve, without the earlier end-frame holds. The final touch, closing title and loop remain synchronized to the revised timeline.
+Each scene begins after the first 0.6 seconds of its recording, removing the recording-button camera disturbance. Fruit placement retains its previously trimmed 7.1-second start. Scene cuts use continuous footage with a cosine dissolve; the overview runs at 4× with the existing 2×/1× phone-box finale.
 
 Homepage music: [Electric Dreams](https://www.scottbuckley.com.au/library/electric-dreams/) by [Scott Buckley](https://www.scottbuckley.com.au/), used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The excerpt is trimmed, normalized and faded, and is included only in the overview video. The page provides a Music on/off control; autoplay starts muted. Audio follows video pause, seeking, fullscreen and the loop. License/credit details are in `assets/videos/music-attribution.txt`.
+
+The same recording-start trim is applied to the individual silent recordings (except the already-trimmed fruit clip). Source recordings are preserved. The earlier entry speed ramps are removed, and soundtrack fades and the finishing-touch effect are aligned to the shorter overview.

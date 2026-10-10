@@ -5,4 +5,4 @@ Track and download source: https://www.scottbuckley.com.au/library/electric-drea
 Artist: https://www.scottbuckley.com.au/
 License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 License URL: https://creativecommons.org/licenses/by/4.0/
-Edits: 107.25-second excerpt; loudness normalization; opening and closing fades; synchronized to the project overview. The music is distributed as part of this video, not as an isolated track.
+Edits: 98.95-second excerpt; loudness normalization; opening and closing fades; synchronized to the project overview. The music is distributed as part of this video, not as an isolated track.

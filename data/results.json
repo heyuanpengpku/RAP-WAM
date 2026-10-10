@@ -29,10 +29,11 @@
         0.45,
         0.95
       ],
-      "video": "assets/videos/task-01.mp4",
+      "video": "assets/videos/stable-start/task-01.mp4",
       "poster": "assets/images/task-01.webp",
       "supplementary": false,
-      "duration": 32.0
+      "duration": 31.375,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 2,
@@ -47,10 +48,11 @@
         0.45,
         0.95
       ],
-      "video": "assets/videos/task-02.mp4",
+      "video": "assets/videos/stable-start/task-02.mp4",
       "poster": "assets/images/task-02.webp",
       "supplementary": false,
-      "duration": 33.166666666666664
+      "duration": 32.541666666666664,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 3,
@@ -84,10 +86,11 @@
         0.2,
         0.9
       ],
-      "video": "assets/videos/task-04.mp4",
+      "video": "assets/videos/stable-start/task-04.mp4",
       "poster": "assets/images/task-04.webp",
       "supplementary": false,
-      "duration": 37.833333333333336
+      "duration": 37.208333333333336,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 5,
@@ -102,10 +105,11 @@
         0.7,
         0.85
       ],
-      "video": "assets/videos/task-05.mp4",
+      "video": "assets/videos/stable-start/task-05.mp4",
       "poster": "assets/images/task-05.webp",
       "supplementary": false,
-      "duration": 24.208333333333332
+      "duration": 23.583333333333332,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 6,
@@ -120,10 +124,11 @@
         0.4,
         0.85
       ],
-      "video": "assets/videos/task-06.mp4",
+      "video": "assets/videos/stable-start/task-06.mp4",
       "poster": "assets/images/task-06.webp",
       "supplementary": false,
-      "duration": 42.291666666666664
+      "duration": 41.666666666666664,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 7,
@@ -138,10 +143,11 @@
         0.7,
         1.0
       ],
-      "video": "assets/videos/task-07.mp4",
+      "video": "assets/videos/stable-start/task-07.mp4",
       "poster": "assets/images/task-07.webp",
       "supplementary": false,
-      "duration": 28.25
+      "duration": 27.625,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 8,
@@ -156,10 +162,11 @@
         0.4,
         0.9
       ],
-      "video": "assets/videos/task-08.mp4",
+      "video": "assets/videos/stable-start/task-08.mp4",
       "poster": "assets/images/task-08.webp",
       "supplementary": false,
-      "duration": 19.125
+      "duration": 18.5,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 9,
@@ -174,10 +181,11 @@
         0.65,
         1.0
       ],
-      "video": "assets/videos/task-09.mp4",
+      "video": "assets/videos/stable-start/task-09.mp4",
       "poster": "assets/images/task-09.webp",
       "supplementary": false,
-      "duration": 24.75
+      "duration": 24.125,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 10,
@@ -192,10 +200,11 @@
         0.85,
         1.0
       ],
-      "video": "assets/videos/task-10.mp4",
+      "video": "assets/videos/stable-start/task-10.mp4",
       "poster": "assets/images/task-10.webp",
       "supplementary": false,
-      "duration": 14.166666666666666
+      "duration": 13.541666666666666,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 11,
@@ -210,10 +219,11 @@
         0.25,
         0.7
       ],
-      "video": "assets/videos/task-11.mp4",
+      "video": "assets/videos/stable-start/task-11.mp4",
       "poster": "assets/images/task-11.webp",
       "supplementary": false,
-      "duration": 26.833333333333332
+      "duration": 26.208333333333332,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 12,
@@ -228,10 +238,11 @@
         0.45,
         0.8
       ],
-      "video": "assets/videos/task-12-updated.mp4",
+      "video": "assets/videos/stable-start/task-12.mp4",
       "poster": "assets/images/task-12-updated.webp",
       "supplementary": false,
-      "duration": 25.25
+      "duration": 24.625,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 13,
@@ -246,10 +257,11 @@
         0.7,
         0.9
       ],
-      "video": "assets/videos/task-13.mp4",
+      "video": "assets/videos/stable-start/task-13.mp4",
       "poster": "assets/images/task-13.webp",
       "supplementary": false,
-      "duration": 21.166666666666668
+      "duration": 20.541666666666668,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 14,
@@ -264,10 +276,11 @@
         0.35,
         0.85
       ],
-      "video": "assets/videos/task-14.mp4",
+      "video": "assets/videos/stable-start/task-14.mp4",
       "poster": "assets/images/task-14.webp",
       "supplementary": false,
-      "duration": 13.958333333333334
+      "duration": 13.333333333333334,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 15,
@@ -282,10 +295,11 @@
         0.5,
         0.75
       ],
-      "video": "assets/videos/task-15.mp4",
+      "video": "assets/videos/stable-start/task-15.mp4",
       "poster": "assets/images/task-15.webp",
       "supplementary": false,
-      "duration": 23.041666666666668
+      "duration": 22.416666666666668,
+      "cameraStartTrimSeconds": 0.625
     },
     {
       "id": 16,
@@ -300,10 +314,11 @@
         null,
         0.85
       ],
-      "video": "assets/videos/task-16.mp4",
+      "video": "assets/videos/stable-start/task-16.mp4",
       "poster": "assets/images/task-16.webp",
       "supplementary": true,
-      "duration": 62.0
+      "duration": 61.375,
+      "cameraStartTrimSeconds": 0.625
     }
   ],
   "simulation": {
@@ -1943,196 +1958,196 @@
       "id": 1,
       "start": 0.0,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 7.375
+      "end": 6.858333333333333
     },
     {
       "id": 2,
-      "start": 7.375,
+      "start": 6.858333333333333,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 14.808333333333334
+      "end": 13.758333333333333
     },
     {
       "id": 3,
-      "start": 14.808333333333334,
+      "start": 13.758333333333333,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 7.1,
+      "cameraStartTrimSeconds": 0,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 20.408333333333335
+      "end": 18.991666666666667
     },
     {
       "id": 4,
-      "start": 20.408333333333335,
+      "start": 18.991666666666667,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 29.341666666666665
+      "end": 27.391666666666666
     },
     {
       "id": 5,
-      "start": 29.341666666666665,
+      "start": 27.391666666666666,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 34.49166666666667
+      "end": 32.025
     },
     {
       "id": 6,
-      "start": 34.49166666666667,
+      "start": 32.025,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 44.475
+      "end": 41.475
     },
     {
       "id": 7,
-      "start": 44.475,
+      "start": 41.475,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 50.775
+      "end": 47.25833333333333
     },
     {
       "id": 8,
-      "start": 50.775,
+      "start": 47.25833333333333,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 55.05833333333333
+      "end": 51.00833333333333
     },
     {
       "id": 9,
-      "start": 55.05833333333333,
+      "start": 51.00833333333333,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 60.84166666666667
+      "end": 56.25833333333333
     },
     {
       "id": 10,
-      "start": 60.84166666666667,
+      "start": 56.25833333333333,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 63.925
+      "end": 58.825
     },
     {
       "id": 11,
-      "start": 63.925,
+      "start": 58.825,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 69.95833333333333
+      "end": 64.325
     },
     {
       "id": 12,
-      "start": 69.95833333333333,
+      "start": 64.325,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 75.49166666666666
+      "end": 69.325
     },
     {
       "id": 13,
-      "start": 75.49166666666666,
+      "start": 69.325,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 80.225
+      "end": 73.525
     },
     {
       "id": 14,
-      "start": 80.225,
+      "start": 73.525,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 83.25833333333334
+      "end": 76.025
     },
     {
       "id": 15,
-      "start": 83.25833333333334,
+      "start": 76.025,
       "speed": 4,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4
       ],
-      "end": 88.24166666666666
+      "end": 80.475
     },
     {
       "id": 16,
-      "start": 88.24166666666666,
+      "start": 80.475,
       "speed": null,
-      "entryRampSeconds": 1.0,
+      "sourceStart": 0.6,
+      "cameraStartTrimSeconds": 0.6,
       "speedProfile": [
-        1,
         4,
         2,
         1
       ],
-      "end": 107.25
+      "end": 98.95
     }
   ],
   "highlightSpeed": 4,
-  "highlightDuration": 107.25,
+  "highlightDuration": 98.95,
   "highlightLoopTransition": {
-    "start": 106.75,
-    "labelSwitch": 107.0,
-    "end": 107.25
+    "start": 98.45,
+    "labelSwitch": 98.7,
+    "end": 98.95
   },
   "highlightTransitionSeconds": 0.25,
   "highlightFinale": {
     "taskId": 16,
     "sourceEnd": 59.25,
     "touchSourceTime": 58.4,
-    "touchVideoTime": 104.65,
-    "normalSpeedStart": 103.75,
-    "closingTitleStart": 105.55000000000001,
+    "touchVideoTime": 96.35,
+    "normalSpeedStart": 95.45,
+    "closingTitleStart": 97.25,
     "openingSeconds": 1.2,
     "loopTransitionSeconds": 0.5
   },
@@ -2141,5 +2156,6 @@
     "height": 1080,
     "fps": 60
   },
-  "highlightEntryRampSeconds": 1.0
+  "highlightEntryRampSeconds": 0.0,
+  "highlightCameraStartTrimSeconds": 0.6
 }
