@@ -228,10 +228,10 @@
         0.45,
         0.8
       ],
-      "video": "assets/videos/task-12.mp4",
-      "poster": "assets/images/task-12.webp",
+      "video": "assets/videos/task-12-updated.mp4",
+      "poster": "assets/images/task-12-updated.webp",
       "supplementary": false,
-      "duration": 28.458333333333332
+      "duration": 25.25
     },
     {
       "id": 13,
@@ -2008,40 +2008,40 @@
     {
       "id": 12,
       "start": 70.58333333333333,
-      "end": 77.125,
+      "end": 76.16666666666667,
       "speed": 4
     },
     {
       "id": 13,
-      "start": 77.125,
-      "end": 81.91666666666667,
+      "start": 76.16666666666667,
+      "end": 80.95833333333333,
       "speed": 4
     },
     {
       "id": 14,
-      "start": 81.91666666666667,
-      "end": 85.0,
+      "start": 80.95833333333333,
+      "end": 84.04166666666667,
       "speed": 4
     },
     {
       "id": 15,
-      "start": 85.0,
-      "end": 90.04166666666667,
+      "start": 84.04166666666667,
+      "end": 89.08333333333333,
       "speed": 4
     },
     {
       "id": 16,
-      "start": 90.04166666666667,
-      "end": 103.83333333333333,
+      "start": 89.08333333333333,
+      "end": 102.875,
       "speed": 4
     }
   ],
   "highlightSpeed": 4,
-  "highlightDuration": 103.83333333333333,
+  "highlightDuration": 102.875,
   "highlightLoopTransition": {
-    "start": 103.58333333333333,
-    "labelSwitch": 103.70833333333333,
-    "end": 103.83333333333333
+    "start": 102.625,
+    "labelSwitch": 102.75,
+    "end": 102.875
   },
   "highlightTransitionSeconds": 0.25
 }

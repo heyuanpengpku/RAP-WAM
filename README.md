@@ -38,7 +38,7 @@ GitHub Pages serves the repository root on the `main` branch. `.nojekyll` enable
 - `app.js`: interactive views and language switching.
 - `styles.css`: responsive visual design.
 - `data/results.json`: manuscript-aligned result values; absent supplementary baseline values remain `null`.
-- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-polished.mp4` combines all 16 task executions at 4× speed. Videos use progressive-download fast-start metadata.
+- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-towel-updated.mp4` combines all 16 task executions at 4× speed. Videos use progressive-download fast-start metadata.
 - `assets/images/`: original video posters and exported manuscript figures/paired prediction frames. No generative image editing is used.
 - `assets/paper/rap-wam-public.pdf`: public English manuscript with author attribution and clearly marked appendix.
 - `assets/fonts/`: self-hosted Inter and Space Grotesk, with SIL Open Font Licenses.
@@ -56,3 +56,5 @@ The homepage plays one continuous overview video containing all 16 tasks. Indivi
 The homepage overview cuts each scene after object placement/release, omits subsequent return-to-home tails, and joins scenes with 0.25-second cross-dissolves. The gallery recordings remain separate.
 
 The method explorer defines Coupled Action Projection (CAP), illustrates its additive compact-MLP/noise-conditioned readout, and presents predictive rehearsal as generated-condition training plus a persistent-error prior.
+
+Towel organization uses the newly supplied 25-second recording in the gallery and homepage overview. Its poster is refreshed from the same recording; the overview ends this task at object placement/release and retains the short cross-dissolve edit. Videos remain silent.
