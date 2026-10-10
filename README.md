@@ -54,3 +54,5 @@ Fruit placement has its 7.1-second stationary introduction removed in both the i
 The homepage plays one continuous overview video containing all 16 tasks. Individual-task controls appear only in the robot demo gallery.
 
 The homepage overview cuts each scene after object placement/release, omits subsequent return-to-home tails, and joins scenes with 0.25-second cross-dissolves. The gallery recordings remain separate.
+
+The method explorer defines Coupled Action Projection (CAP), illustrates its additive compact-MLP/noise-conditioned readout, and presents predictive rehearsal as generated-condition training plus a persistent-error prior.
