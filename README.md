@@ -14,7 +14,7 @@ This repository contains the research project website. It is not a release of th
 
 A responsive English/Chinese project page with:
 
-- An overview reel covering all 16 complete real-robot recordings at 4× speed, with continuous playback; individual recordings retain original-speed playback.
+- An overview reel covering all 16 real-robot task executions at 4× speed, with continuous playback; individual recordings retain original-speed playback.
 - Six-method real-robot comparisons, task selection, and downloadable CSV data.
 - Base/system comparisons across five RoboDojo capabilities and 42 searchable task results.
 - Interactive paired recorded/predicted training-frame comparisons for all 51 available examples (16 real-robot and 35 simulation), with domain filters, task search, thumbnails, previous/next controls, and five future offsets.
@@ -38,7 +38,7 @@ GitHub Pages serves the repository root on the `main` branch. `.nojekyll` enable
 - `app.js`: interactive views and language switching.
 - `styles.css`: responsive visual design.
 - `data/results.json`: manuscript-aligned result values; absent supplementary baseline values remain `null`.
-- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-v2.mp4` combines all 16 complete recordings at 4× speed. Videos use progressive-download fast-start metadata.
+- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-polished.mp4` combines all 16 task executions at 4× speed. Videos use progressive-download fast-start metadata.
 - `assets/images/`: original video posters and exported manuscript figures/paired prediction frames. No generative image editing is used.
 - `assets/paper/rap-wam-public.pdf`: public English manuscript with author attribution and clearly marked appendix.
 - `assets/fonts/`: self-hosted Inter and Space Grotesk, with SIL Open Font Licenses.
@@ -52,3 +52,5 @@ Author affiliations: Yuanpeng He, Wenpin Jiao, Zhi Jin and Yaodong Yang — Peki
 Fruit placement has its 7.1-second stationary introduction removed in both the individual video and the overview reel. Burger-box assembly now includes a verified final-step training GT/prediction visualization; its SSIM and LPIPS are computed from the five saved RGB pairs, and this basis is disclosed in the viewer.
 
 The homepage plays one continuous overview video containing all 16 tasks. Individual-task controls appear only in the robot demo gallery.
+
+The homepage overview cuts each scene after object placement/release, omits subsequent return-to-home tails, and joins scenes with 0.25-second cross-dissolves. The gallery recordings remain separate.
