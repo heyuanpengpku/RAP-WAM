@@ -1,5 +1,5 @@
 'use strict';
-let lang='en', data=null, realTask='macro', metric='sr', filter='All', predKey='apple', predDomain='real', offset=16, modalTask=1;
+let lang='en', data=null, realTask='macro', metric='sr', filter='All', predKey=null, predDomain='real', offset=16, modalTask=1;
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const t=(en,zh)=>lang==='en'?en:zh;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
