@@ -2032,16 +2032,31 @@
     {
       "id": 16,
       "start": 89.08333333333333,
-      "end": 102.875,
-      "speed": 4
+      "end": 107.70833333333333,
+      "speed": null,
+      "speedProfile": [
+        4,
+        2,
+        1
+      ]
     }
   ],
   "highlightSpeed": 4,
-  "highlightDuration": 102.875,
+  "highlightDuration": 107.70833333333333,
   "highlightLoopTransition": {
-    "start": 102.625,
-    "labelSwitch": 102.75,
-    "end": 102.875
+    "start": 107.20833333333333,
+    "labelSwitch": 107.45833333333333,
+    "end": 107.70833333333333
   },
-  "highlightTransitionSeconds": 0.25
+  "highlightTransitionSeconds": 0.25,
+  "highlightFinale": {
+    "taskId": 16,
+    "sourceEnd": 59.25,
+    "touchSourceTime": 58.4,
+    "touchVideoTime": 105.125,
+    "normalSpeedStart": 104.20833333333333,
+    "closingTitleStart": 106.025,
+    "openingSeconds": 1.1,
+    "loopTransitionSeconds": 0.5
+  }
 }

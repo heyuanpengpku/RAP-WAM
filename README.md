@@ -14,7 +14,7 @@ This repository contains the research project website. It is not a release of th
 
 A responsive English/Chinese project page with:
 
-- An overview reel covering all 16 real-robot task executions at 4× speed, with continuous playback; individual recordings retain original-speed playback.
+- An overview reel covering all 16 real-robot task executions, mostly at 4× speed; the final phone-box sequence slows to 2× and then 1× so the finishing lid touch remains visible. Individual recordings retain original-speed playback.
 - Six-method real-robot comparisons, task selection, and downloadable CSV data.
 - Base/system comparisons across five RoboDojo capabilities and 42 searchable task results.
 - Interactive paired recorded/predicted training-frame comparisons for all 51 available examples (16 real-robot and 35 simulation), with domain filters, task search, thumbnails, previous/next controls, and five future offsets.
@@ -38,7 +38,7 @@ GitHub Pages serves the repository root on the `main` branch. `.nojekyll` enable
 - `app.js`: interactive views and language switching.
 - `styles.css`: responsive visual design.
 - `data/results.json`: manuscript-aligned result values; absent supplementary baseline values remain `null`.
-- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-towel-updated.mp4` combines all 16 task executions at 4× speed. Videos use progressive-download fast-start metadata.
+- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-cinematic.mp4` combines all 16 task executions with opening/closing graphics and a slower phone-box finale. Videos use progressive-download fast-start metadata.
 - `assets/images/`: original video posters and exported manuscript figures/paired prediction frames. No generative image editing is used.
 - `assets/paper/rap-wam-public.pdf`: public English manuscript with author attribution and clearly marked appendix.
 - `assets/fonts/`: self-hosted Inter and Space Grotesk, with SIL Open Font Licenses.
@@ -58,3 +58,5 @@ The homepage overview cuts each scene after object placement/release, omits subs
 The method explorer defines Coupled Action Projection (CAP), illustrates its additive compact-MLP/noise-conditioned readout, and presents predictive rehearsal as generated-condition training plus a persistent-error prior.
 
 Towel organization uses the newly supplied 25-second recording in the gallery and homepage overview. Its poster is refreshed from the same recording; the overview ends this task at object placement/release and retains the short cross-dissolve edit. Videos remain silent.
+
+The overview preserves the phone-box assembly through the finishing touch (source 58.4 seconds), then adds a blue/red ripple and closing title. A matching opening title and a short dissolve form the loop. These are presentation overlays; individual execution recordings remain unchanged.
