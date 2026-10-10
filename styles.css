@@ -36,3 +36,8 @@
 html[lang="zh-CN"] .paper-title .desktop-break{display:none}
 
 .math-symbol{font-size:1em;vertical-align:baseline}.prior-output .math-symbol,.condition-flow .math-symbol{margin-inline:2px}
+
+.authors .author-row-break{flex-basis:100%;height:0}
+.cap-plus{line-height:1}.cap-plus svg{display:block;width:14px;height:14px}
+@media(max-width:900px){.authors .author-row-break{display:none}}
+@media(max-width:520px){.cap-plus svg{width:12px;height:12px}}
