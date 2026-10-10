@@ -41,3 +41,6 @@ html[lang="zh-CN"] .paper-title .desktop-break{display:none}
 .cap-plus{line-height:1}.cap-plus svg{display:block;width:14px;height:14px}
 @media(max-width:900px){.authors .author-row-break{display:none}}
 @media(max-width:520px){.cap-plus svg{width:12px;height:12px}}
+
+.cinema-bottom>div:first-child{min-width:0;flex:1;padding-right:12px}.cinema-controls{flex-shrink:0}.cinema-controls .music-toggle{width:auto;padding-inline:11px;display:flex;align-items:center;justify-content:center;gap:7px;font-size:11px;line-height:1}.music-toggle svg{display:block;flex-shrink:0}.music-toggle[aria-pressed="true"]{border-color:#bddbca;background:#244d3dde}.music-credit{margin-top:-8px;padding-bottom:24px;color:var(--muted);font-size:10px;line-height:1.8}.music-credit a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:520px){.cinema-controls .music-toggle{width:30px;padding:0;gap:0}.music-toggle>span{display:none}.music-toggle svg{width:16px;height:16px}.music-credit{font-size:9px;margin-top:0}.cinema-bottom>div:first-child{padding-right:8px}}

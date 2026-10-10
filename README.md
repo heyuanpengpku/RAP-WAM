@@ -38,14 +38,14 @@ GitHub Pages serves the repository root on the `main` branch. `.nojekyll` enable
 - `app.js`: interactive views and language switching.
 - `styles.css`: responsive visual design.
 - `data/results.json`: manuscript-aligned result values; absent supplementary baseline values remain `null`.
-- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-entry-smooth-1080p60.mp4` combines all 16 task executions with opening/closing graphics and a slower phone-box finale. Videos use progressive-download fast-start metadata.
+- `assets/videos/`: H.264 MP4, original-speed full recordings with audio removed. `all-tasks-with-music-1080p60.mp4` combines all 16 task executions with opening/closing graphics and a slower phone-box finale. Videos use progressive-download fast-start metadata.
 - `assets/images/`: original video posters and exported manuscript figures/paired prediction frames. No generative image editing is used.
 - `assets/paper/rap-wam-public.pdf`: public English manuscript with author attribution and clearly marked appendix.
 - `assets/fonts/`: self-hosted Inter and Space Grotesk, with SIL Open Font Licenses.
 
 An arXiv link can be added when available.
 
-The homepage identifies Peking University as the leading institution. Its unaltered red emblem is from the [official PKU visual identity download center](https://vim.pku.edu.cn/xzzq/) (circular emblem archive). Future latents are shown as a schematic token grid, and the supplementary phone-box recording is centered. All 17 MP4 files have zero audio streams.
+The homepage identifies Peking University as the leading institution. Its unaltered red emblem is from the [official PKU visual identity download center](https://vim.pku.edu.cn/xzzq/) (circular emblem archive). Future latents are shown as a schematic token grid, and the supplementary phone-box recording is centered. Individual task recordings have zero audio streams; the homepage overview has an optional instrumental soundtrack.
 
 Author affiliations: Yuanpeng He, Wenpin Jiao, Zhi Jin and Yaodong Yang — Peking University; Fangjing Li — Beijing Jiaotong University; Lijian Li — University of Macau; Ceyao Zhang, Kefei Zhu, Yueheng Li, Tianjia He and Yuanpei Chen — Psibot. The public manuscript uses superscript institution indices.
 
@@ -57,7 +57,7 @@ The homepage overview cuts each scene after object placement/release, omits subs
 
 The method explorer defines Coupled Action Projection (CAP), illustrates its additive compact-MLP/noise-conditioned readout, and presents predictive rehearsal as generated-condition training plus a persistent-error prior.
 
-Towel organization uses the newly supplied 25-second recording in the gallery and homepage overview. Its poster is refreshed from the same recording; the overview ends this task at object placement/release and retains the short cross-dissolve edit. Videos remain silent.
+Towel organization uses the newly supplied 25-second recording in the gallery and homepage overview. Its poster is refreshed from the same recording; the overview ends this task at object placement/release and retains the short cross-dissolve edit. Individual task recordings remain silent.
 
 The overview preserves the phone-box assembly through the finishing touch (source 58.4 seconds), then adds a blue/red ripple and closing title. A matching opening title and a short dissolve form the loop. These are presentation overlays; individual execution recordings remain unchanged.
 
@@ -66,3 +66,5 @@ The overview is encoded at 1920×1080 and 60 fps, rebuilt from source recordings
 The 60 fps overview samples 15 original frames per source second in its 4× portions, versus six in the earlier 24 fps edit. It uses recorded frames rather than motion-generated intermediate views. The phone-box finale retains its 2× and 1× sections, and scene/loop transitions are resampled at the new output frame rate.
 
 Each scene enters with a one-second smooth speed ramp from 1× to 4×. Scene cuts use overlapping continuous outgoing/incoming footage with a cosine dissolve, without the earlier end-frame holds. The final touch, closing title and loop remain synchronized to the revised timeline.
+
+Homepage music: [Electric Dreams](https://www.scottbuckley.com.au/library/electric-dreams/) by [Scott Buckley](https://www.scottbuckley.com.au/), used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The excerpt is trimmed, normalized and faded, and is included only in the overview video. The page provides a Music on/off control; autoplay starts muted. Audio follows video pause, seeking, fullscreen and the loop. License/credit details are in `assets/videos/music-attribution.txt`.
