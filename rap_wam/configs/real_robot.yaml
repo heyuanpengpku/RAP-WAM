@@ -1,0 +1,54 @@
+defaults:
+- base
+- _self_
+task:
+  name: real_robot
+  dataset:
+    views:
+    - rgb_head
+    output_condition_key: rgb_head
+    output_future_key: rgb_head_future
+    output_last_key: rgb_head_last
+    output_state_key: robot_state
+    split_seed: 42
+    _target_: rap_wam.datasets.RealRobotDataset
+    data_root: ${oc.env:DATA_ROOT,./data/real_robot/zarr}
+    state_keys:
+    - waist_joints_states
+    - left_arm_states
+    - right_arm_states
+    - left_hand_states
+    - right_hand_states
+    action_keys:
+    - action_waist_joints
+    - action_arm_joints
+    - action_left_hand_joints
+    - action_right_hand_joints
+    image_size:
+    - 224
+    - 224
+    val_split_ratio: 0.0
+    expected_episode_count: 100
+    expected_total_frames: null
+    expected_train_samples: null
+    preprocessors:
+      rgb_head:
+        _target_: rap_wam.core.dataset.preprocessors.rgb.RGBPreprocessor
+        image_size:
+        - 224
+        - 224
+      rgb_head_future:
+        _target_: rap_wam.core.dataset.preprocessors.rgb.RGBPreprocessor
+        image_size:
+        - 224
+        - 224
+      rgb_head_last:
+        _target_: rap_wam.core.dataset.preprocessors.rgb.RGBPreprocessor
+        image_size:
+        - 224
+        - 224
+      robot_state:
+        _target_: rap_wam.core.dataset.preprocessors.low_dim.LowDimPreprocessor
+training:
+  num_epochs: 150
+  val_every: 0

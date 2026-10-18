@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use RAP-WAM in research, please cite the accompanying paper."
+type: software
+title: RAP-WAM
+version: 0.2.3
+license: MIT AND Apache-2.0
+url: https://rapwam.github.io/
+authors:
+  - name: RAP-WAM contributors
+preferred-citation:
+  type: article
+  title: "RAP-WAM: Learning World-Action Models through Predictive Rehearsal and Action Perturbations"
+  authors:
+    - family-names: He
+      given-names: Yuanpeng
+    - family-names: Zhang
+      given-names: Ceyao
+    - family-names: Li
+      given-names: Fangjing
+    - family-names: Zhu
+      given-names: Kefei
+    - family-names: Li
+      given-names: Lijian
+    - family-names: Li
+      given-names: Yueheng
+    - family-names: He
+      given-names: Tianjia
+    - family-names: Jiao
+      given-names: Wenpin
+    - family-names: Jin
+      given-names: Zhi
+    - family-names: Yang
+      given-names: Yaodong
+    - family-names: Chen
+      given-names: Yuanpei
+  year: 2026
+  date-published: 2026-10-12
+  journal: arXiv
+  volume: "2610.16443"
+  url: https://arxiv.org/abs/2610.16443
+  notes: "Version 1; arXiv:2610.16443v1 [cs.AI]."

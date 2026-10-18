@@ -1,0 +1,49 @@
+defaults:
+- base
+- _self_
+task:
+  name: robodojo
+  task_strings_path: ${task.dataset.data_root}/task_strings.json
+  dataset:
+    views:
+    - rgb_head
+    output_condition_key: rgb_head
+    output_future_key: rgb_head_future
+    output_last_key: rgb_head_last
+    output_state_key: robot_state
+    split_seed: 42
+    _target_: rap_wam.datasets.RoboDojoDataset
+    data_root: ${oc.env:DATA_ROOT,./data/robodojo/zarr}
+    state_keys:
+    - robot_state_joint
+    action_keys:
+    - action_joint
+    image_size:
+    - 384
+    - 320
+    val_split_ratio: 0.05
+    num_tasks: 35
+    preprocessors:
+      rgb_head:
+        _target_: rap_wam.core.dataset.preprocessors.rgb.RGBPreprocessor
+        image_size:
+        - 384
+        - 320
+      rgb_head_future:
+        _target_: rap_wam.core.dataset.preprocessors.rgb.RGBPreprocessor
+        image_size:
+        - 384
+        - 320
+      rgb_head_last:
+        _target_: rap_wam.core.dataset.preprocessors.rgb.RGBPreprocessor
+        image_size:
+        - 384
+        - 320
+      robot_state:
+        _target_: rap_wam.core.dataset.preprocessors.low_dim.LowDimPreprocessor
+policy:
+  _target_: rap_wam.policy.language_policy.LanguageConditionedRAPPolicy
+  task_ctx_path: ${oc.env:TASK_CONTEXT_PATH,./data/robodojo/task_context.pt}
+  ccrt_warmup_steps: 18000
+  opsr_warmup_steps: 18000
+  puga_warmup_steps: 18000

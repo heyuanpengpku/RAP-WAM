@@ -1,0 +1,521 @@
+{
+  "release": "0.2.3",
+  "checked_date": "2026-10-18",
+  "project_name": "rap_wam",
+  "display_name": "RAP-WAM",
+  "status": "passed",
+  "tests": {
+    "run": 39,
+    "passed": 39,
+    "failed": 0,
+    "skipped": 0,
+    "evidence_release": "0.2.0",
+    "rerun_for_this_release": false
+  },
+  "environment": {
+    "python": "3.10.12",
+    "packages": {
+      "torch": "2.8.0+cpu",
+      "torchvision": "0.23.0+cpu",
+      "accelerate": "1.2.0",
+      "transformers": "4.30.0",
+      "hydra-core": "1.3.2",
+      "pandas": "2.3.3",
+      "pyarrow": "21.0.0",
+      "zarr": "2.12.0"
+    }
+  },
+  "fresh_dependency_installation": {
+    "target": "Linux / Python 3.10 / CPU / data extra",
+    "status": "passed",
+    "dependency_consistency_check": "passed",
+    "installed_dependency_packages": 52
+  },
+  "hydra_profiles": {
+    "robodojo": "passed",
+    "real_robot": "passed"
+  },
+  "cpu_ddp": {
+    "status": "passed",
+    "processes": 2,
+    "backend": "gloo",
+    "policy": "explicit small test double",
+    "synthetic_28d_data": true,
+    "gradient_accumulation": 2,
+    "optimizer_updates": 1,
+    "checkpoint_next_epoch": 1,
+    "public_launcher_entry": "passed"
+  },
+  "native_cuda_projection_heads": {
+    "torch": "2.9.1+cu128",
+    "device": "NVIDIA GeForce RTX 4090",
+    "results": [
+      {
+        "head": "video",
+        "bf16_parameters": true,
+        "native_cuda_forward_backward": "passed"
+      },
+      {
+        "head": "action_14",
+        "bf16_parameters": true,
+        "native_cuda_forward_backward": "passed"
+      },
+      {
+        "head": "action_28",
+        "bf16_parameters": true,
+        "native_cuda_forward_backward": "passed"
+      }
+    ],
+    "scope": "actual projection-head classes extracted from source; no backbone/VAE/5B weights"
+  },
+  "standalone_examples_and_preflight": {
+    "export": "passed",
+    "convert": "passed",
+    "preflight_real": "passed",
+    "preflight_robo_context_assets": "passed",
+    "dry_run_robodojo": "passed",
+    "dry_run_real_robot": "passed"
+  },
+  "static_reference_checks": {
+    "rules": [
+      "F821",
+      "F822",
+      "F823"
+    ],
+    "findings": []
+  },
+  "documentation": {
+    "documentation": {
+      "counts": {
+        "documents": 22,
+        "local_links": 148,
+        "shell_blocks": 30,
+        "python_blocks": 2
+      },
+      "errors": []
+    },
+    "negative_documentation_fixtures": "passed",
+    "display_name_and_heading_fixtures": "passed",
+    "workflow_run_block_syntax": [
+      "Install CPU dependencies and video tools",
+      "Check documentation and release integrity",
+      "Resolve both training profiles",
+      "Run synthetic-data and reduced-policy contracts"
+    ],
+    "hosted_ci_executed": false,
+    "issue_templates": "parsed",
+    "citation_version": "0.2.3"
+  },
+  "readme_rendering": [
+    {
+      "width": 1280,
+      "overflow": false,
+      "displayTitle": "RAP-WAM",
+      "localImages": [
+        {
+          "src": "docs/media/overview.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robot_tasks.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_01.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_02.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_03.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_04.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_05.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_06.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_07.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_08.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_09.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_10.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_11.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_12.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_13.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_14.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_15.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_16.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_recorded_4.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_recorded_8.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_recorded_16.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_predicted_4.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_predicted_8.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_predicted_16.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_recorded_4.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_recorded_8.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_recorded_16.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_predicted_4.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_predicted_8.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_predicted_16.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/response_allocation.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/credit_dynamics.webp",
+          "loaded": true
+        }
+      ],
+      "unsupportedVideoTags": 0,
+      "initialLayout": {
+        "overflow": false,
+        "firstFigure": "docs/media/overview.webp",
+        "defaultOpenPanels": 0,
+        "headings": [
+          "Method Overview",
+          "Reported Results",
+          "Getting Started",
+          "Robot Demonstrations",
+          "Visualizations",
+          "Documentation",
+          "Citation",
+          "License and Acknowledgments"
+        ],
+        "trainingBeforeGallery": true,
+        "methodBeforeGallery": true,
+        "collapsedHeight": 6349
+      },
+      "expandedHeight": 11688,
+      "animationPixelsChanged": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "displayTitle": "RAP-WAM",
+      "localImages": [
+        {
+          "src": "docs/media/overview.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robot_tasks.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_01.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_02.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_03.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_04.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_05.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_06.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_07.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_08.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_09.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_10.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_11.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_12.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_13.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_14.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_15.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/execution_16.gif",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_recorded_4.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_recorded_8.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_recorded_16.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_predicted_4.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_predicted_8.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/phone_predicted_16.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_recorded_4.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_recorded_8.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_recorded_16.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_predicted_4.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_predicted_8.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/robodojo_predicted_16.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/response_allocation.webp",
+          "loaded": true
+        },
+        {
+          "src": "docs/media/credit_dynamics.webp",
+          "loaded": true
+        }
+      ],
+      "unsupportedVideoTags": 0,
+      "initialLayout": {
+        "overflow": false,
+        "firstFigure": "docs/media/overview.webp",
+        "defaultOpenPanels": 0,
+        "headings": [
+          "Method Overview",
+          "Reported Results",
+          "Getting Started",
+          "Robot Demonstrations",
+          "Visualizations",
+          "Documentation",
+          "Citation",
+          "License and Acknowledgments"
+        ],
+        "trainingBeforeGallery": true,
+        "methodBeforeGallery": true,
+        "collapsedHeight": 8550
+      },
+      "expandedHeight": 12467,
+      "animationPixelsChanged": true
+    }
+  ],
+  "privacy_scan": "passed",
+  "media_assets": 32,
+  "checkpoint_format_version": 2,
+  "normalization": "only complete episodes represented in training split",
+  "context_conditioning": "explicit task_index required for training and sampling",
+  "source_files_modified_for_release": [
+    "rap_wam/data/two_chunk_dataset.py",
+    "rap_wam/data/three_chunk_dataset.py",
+    "rap_wam/data/four_chunk_dataset.py",
+    "rap_wam/data/sequence_dataset.py",
+    "rap_wam/training/metric_workspace.py",
+    "rap_wam/policy/imagination_policy.py",
+    "rap_wam/policy/residual_policy.py",
+    "rap_wam/policy/cross_chunk_policy.py",
+    "rap_wam/policy/on_policy_state_policy.py",
+    "rap_wam/policy/difficulty_adaptive_policy.py",
+    "rap_wam/policy/rap_policy.py",
+    "rap_wam/policy/decoupled_policy.py",
+    "rap_wam/core/__init__.py",
+    "rap_wam/core/common/normalize_util.py",
+    "rap_wam/core/common/workspace_utils.py",
+    "rap_wam/core/dataset/__init__.py",
+    "rap_wam/core/dataset/normalizer_stats.py",
+    "rap_wam/core/dataset/preprocessors/__init__.py",
+    "rap_wam/core/dataset/preprocessors/base.py",
+    "rap_wam/core/dataset/preprocessors/builder.py",
+    "rap_wam/core/dataset/preprocessors/low_dim.py",
+    "rap_wam/core/dataset/preprocessors/passthrough.py",
+    "rap_wam/core/dataset/preprocessors/rgb.py",
+    "rap_wam/core/dataset/preprocessors/utils.py",
+    "rap_wam/core/model/common/__init__.py",
+    "rap_wam/core/model/common/dict_of_tensor_mixin.py",
+    "rap_wam/core/model/common/lr_scheduler.py",
+    "rap_wam/core/model/common/module_attr_mixin.py",
+    "rap_wam/core/model/common/normalizer.py",
+    "rap_wam/core/model/diffusion/__init__.py",
+    "rap_wam/core/model/diffusion/ema_model.py",
+    "rap_wam/core/model/diffusion/positional_embedding.py",
+    "rap_wam/core/model/diffusion/transformer_for_action.py",
+    "rap_wam/core/model/wan/__init__.py",
+    "rap_wam/core/model/wan/official_obs_encoder.py",
+    "rap_wam/core/model/wan/prompt_embedding.py",
+    "rap_wam/core/model/wan/runtime.py",
+    "rap_wam/core/policy/__init__.py",
+    "rap_wam/core/policy/base_policy.py",
+    "rap_wam/core/policy/wan_joint_action_policy.py",
+    "rap_wam/core/policy/wan_video_policy.py",
+    "rap_wam/core/workspace/__init__.py",
+    "rap_wam/core/workspace/base_workspace.py",
+    "rap_wam/core/workspace/wan_train_workspace.py",
+    "third_party/wan_official/wan/__init__.py",
+    "third_party/wan_official/wan/modules/__init__.py",
+    "third_party/wan_official/wan/modules/t5.py",
+    "rap_wam/data/language_dataset.py",
+    "rap_wam/policy/language_policy.py",
+    "rap_wam/fixed100_dataset.py"
+  ],
+  "full_5b_training_performed": false,
+  "full_model_cuda_test_performed": false,
+  "multi_node_gpu_test_performed": false,
+  "benchmark_or_robot_evaluation_performed": false,
+  "hosted_ci_executed": false,
+  "server_original_sources_modified": false,
+  "media_review": {
+    "total_bytes": 18495707,
+    "animated_gifs": 16,
+    "gif_presentation": "complete source clips, 4x playback, 5 fps, width 352",
+    "source_links": "32 checked with HEAD; all passed",
+    "task_coverage": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "task_mapping": "matches project-page metadata",
+    "all_animations_have_changing_pixels": true,
+    "runtime_files_compared_to_0_2_2": 92,
+    "runtime_files_byte_identical": true
+  },
+  "runtime_test_evidence": {
+    "release": "0.2.0",
+    "passed": 39,
+    "failed": 0,
+    "skipped": 0,
+    "rerun_for_this_media_release": false
+  }
+}

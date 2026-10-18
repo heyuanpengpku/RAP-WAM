@@ -1,0 +1,150 @@
+defaults:
+- _self_
+_target_: rap_wam.workspace.TrainWorkspace
+encoder_name: rap_wam
+name: ${task.name}
+exp_name: train
+n_obs_steps: 1
+n_action_steps: 16
+n_video_future_steps: 16
+use_action_condition: false
+include_action: true
+wan_checkpoint_dir: ${oc.env:WAN_CHECKPOINT_DIR,./assets/Wan2.2-TI2V-5B}
+policy:
+  _target_: rap_wam.policy.rap_policy.RAPPolicy
+  num_latent_queries: 16
+  align_loss_weight: 0.1
+  align_dim: 128
+  align_loss_type: cosine
+  target_temporal_pool: 1
+  wan_checkpoint_dir: ${wan_checkpoint_dir}
+  wan_dtype: bf16
+  prompt_embedding_path: null
+  num_train_timesteps: 1000
+  train_shift: 5.0
+  sampling_shift: 5.0
+  num_inference_steps: 16
+  loss_type: mse
+  charbonnier_eps: 0.001
+  use_action_condition: ${use_action_condition}
+  use_future_only_loss: true
+  video_loss_weight: 1.0
+  action_loss_weight: 1.0
+  state_key: robot_state
+  use_state_condition: true
+  state_hidden_dim: 1024
+  action_hidden_dim: 1024
+  obs_encoder:
+    _target_: rap_wam.core.model.wan.official_obs_encoder.WanOfficialObsEncoder
+    wan_checkpoint_dir: ${wan_checkpoint_dir}
+    image_key: rgb_head
+    target_key: rgb_head_future
+    fallback_target_key: rgb_head_last
+    vae_dtype: bf16
+  decouple_action_from_video: true
+  decouple_action_attends_state: true
+  coarse_head_hidden_mult: 0.25
+  coarse_zero_init: true
+  # Fail visibly rather than silently dropping a paper auxiliary branch.
+  strict_auxiliary_errors: true
+  ccrt_lambda_max: 1.0
+  ccrt_warmup_steps: 6000
+  ccrt_p_max: 0.25
+  ccrt_sample_steps: 4
+  opsr_p_max: 0.5
+  opsr_warmup_steps: 6000
+  opsr_difficulty_gamma: 1.0
+  puga_weight: 0.5
+  puga_act_weight: 0.3
+  puga_n_samples: 1
+  puga_w_unc: 1.0
+  puga_w_lev: 1.0
+  puga_w_diff: 0.5
+  puga_act_delta: 0.1
+  puga_warmup_steps: 6000
+  puga_p: 0.5
+  # Spatial rehearsal prior P (Section 3.2).
+  uprime_ema_decay: 0.9
+  uprime_grid: 14
+  uprime_use_gap: false
+  latent_cache: false
+  latent_cache_dir: .cache/rap_wam/latents
+normalizer:
+  mode: limits
+train_dataloader:
+  batch_size: 2
+  shuffle: true
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: false
+val_dataloader:
+  batch_size: 1
+  shuffle: false
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: false
+optimizer:
+  lr: 0.0002
+  weight_decay: 0.0001
+  betas:
+  - 0.9
+  - 0.95
+  start_ckpt_path: null
+  start_normalizer_path: null
+  obs_encoder_mode: freeze
+  dit_mode: full_train
+ema:
+  update_after_step: 0
+  inv_gamma: 1.0
+  power: 0.75
+  min_value: 0.0
+  max_value: 0.9999
+checkpoint:
+  topk:
+    monitor_key: train_loss
+    mode: min
+    k: 3
+    format_str: step={global_step:08d}-loss={train_loss:.6f}.ckpt
+training:
+  seed: 42
+  device: cuda:0
+  mixed_precision: bf16
+  preflight_full: true
+  resume: false
+  resume_path: ''
+  num_epochs: 50
+  gradient_accumulate_every: 1
+  grad_norm_clip: 0.5
+  lr_scheduler: cosine
+  lr_warmup_steps: ${mul:${training.optimizer_warmup_steps},${oc.env:WORLD_SIZE,1}}
+  use_ema: false
+  checkpoint_every_steps: 0
+  sample_every_steps: 0
+  checkpoint_every: 1
+  val_every: 1
+  sample_every: 0
+  max_train_steps: null
+  max_val_steps: null
+  tqdm_interval_sec: 1.0
+  log_every_n_steps: 20
+  optimizer_warmup_steps: 500
+logging:
+  project: rap_wam
+  dir: null
+  mode: disabled
+  name: ${now:%Y.%m.%d-%H.%M}_${name}_${exp_name}
+  tags:
+  - rap_wam
+  id: null
+  group: null
+hydra:
+  run:
+    dir: ${oc.env:RUN_DIR,./outputs/${task.name}/${now:%Y%m%d_%H%M%S}}
+  job:
+    chdir: false
+task:
+  name: base
+  text_prompt: ''
+  normalizer:
+    fixed_preset: ''
+  dataset: {}

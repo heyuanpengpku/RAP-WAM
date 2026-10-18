@@ -1,0 +1,22 @@
+name: Feature Request
+description: Propose an improvement to a documented training or research workflow.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: User workflow and current limitation
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Explain the expected interface, data requirements and effect on the current recipes.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation and scope
+      description: How should this be checked? Note whether model weights, GPUs or simulator/hardware integration are required.

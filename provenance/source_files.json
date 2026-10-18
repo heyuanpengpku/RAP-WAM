@@ -1,0 +1,443 @@
+[
+  {
+    "path": "rap_wam/data/__init__.py",
+    "source": "training-core",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified": false
+  },
+  {
+    "path": "rap_wam/data/two_chunk_dataset.py",
+    "source": "training-core",
+    "source_sha256": "f2a69e33183daa25364adf46be5f59872ea6f973334d244f73e23de498930b65",
+    "release_sha256": "576b5fce196a86c3e65c542b8c7ce7328077d9326398a862350a86a113617efb",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/data/three_chunk_dataset.py",
+    "source": "training-core",
+    "source_sha256": "8cc7f9f321deeb4ff94377563307200fc45c723c4375bd7017bd99b92b51cb41",
+    "release_sha256": "0676686a774e98ba6c943a06ffb0fa29b74604639235fb101e852edf9e6ee223",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/data/four_chunk_dataset.py",
+    "source": "training-core",
+    "source_sha256": "07d8f011b27f9b23db581e7498feff1ad4b173b49ae8485a6f4361c7eeedc535",
+    "release_sha256": "ccb46f3bbf90334c8719e8f035d478e62d1ad81cceff17f38e373170535a1567",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/data/sequence_dataset.py",
+    "source": "training-core",
+    "source_sha256": "a65900e8b046868cc4b80b9d1eef857c6422b4901cddc201cf70048a73a1ac30",
+    "release_sha256": "1c605f578f2cf39c97a39ad8cb127c36dc878d66a8d61cb8045cc45513d28e3d",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/training/__init__.py",
+    "source": "training-core",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified": false
+  },
+  {
+    "path": "rap_wam/training/metric_workspace.py",
+    "source": "training-core",
+    "source_sha256": "998505aed5227445dff9ebc6ce37fd3b70685c05cd6c5c35e5a321d4ce41069b",
+    "release_sha256": "a92b3ea010d437a119a3b302d61ccfa90c969b035c2825fb4ba434156506a1dd",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/policy/__init__.py",
+    "source": "training-core",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified": false
+  },
+  {
+    "path": "rap_wam/policy/imagination_policy.py",
+    "source": "training-core",
+    "source_sha256": "8c3694de8eb1c22fac9ad8b064d9709ecdf0a91f4a5c36b4c1449eec61530f4c",
+    "release_sha256": "a335c289b8c9ca75031d0c526f331b6706ef2fa93c2a2c9d89e81f2fc0b70a4b",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/policy/residual_policy.py",
+    "source": "training-core",
+    "source_sha256": "9e95fe061f0aa72ad61b01e2292a34b72192dc20273db88fbfc5d7db717acf8b",
+    "release_sha256": "7afaae94d5a68bbf02cc76574329ca76bd3c69077929672f9b7837be19cadb83",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/policy/cross_chunk_policy.py",
+    "source": "training-core",
+    "source_sha256": "53a2bcab1536063efece04e842434c346e6094e1fc879ba6b8ecc784f3edb91b",
+    "release_sha256": "90fe472a9651097754cf72699b7fd23058d75c87e521c250cc36e4f1ef3f4081",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/policy/on_policy_state_policy.py",
+    "source": "training-core",
+    "source_sha256": "faa4bd36764ac64a9a18c37a659be12ed18a24c6d743ab3d078fb1a1164bdfab",
+    "release_sha256": "623b4228faa8f21db6aec153528e003aa765f641fdba55ac245025b4c498d252",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/policy/difficulty_adaptive_policy.py",
+    "source": "training-core",
+    "source_sha256": "cafa6216b855be010799cfe469b198170ee06d426cac401eef2f32b2a0231e6d",
+    "release_sha256": "7fe54524ecd42846b47cd342d266c149272f947111de3f0b5708668f98494599",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/policy/rap_policy.py",
+    "source": "training-core",
+    "source_sha256": "7260b157ec6db77c6a1c84fffbcc90cd63c6eb1b542526248d65baf2834cd42d",
+    "release_sha256": "9b0f099c24a599baba5e62706761d013ca514c0696ad5b2380482846e99ed6e3",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/policy/decoupled_policy.py",
+    "source": "training-core",
+    "source_sha256": "25fb890835b46f71b5dc8719600e2adbdff6ab4144ebc3c9a5678240137706e5",
+    "release_sha256": "fcae8d1611b345625d7e935dffba7e2722d7b9ab169ba7b27a211f1afd6cae02",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/__init__.py",
+    "source": "training-core",
+    "source_sha256": "1db2f24b8c42482aca0b448b235081ea904f83a77b9338ff7c1b79e28760ec64",
+    "release_sha256": "f01cd7ef2c04a65a5b7564eed276325da6dce16332cddbc56bf39712fbe931ca",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/common/__init__.py",
+    "source": "training-core",
+    "source_sha256": "179497a7ac5d318be0a4484d8daee3a3cac6188228da49d434f99aeb67f2701d",
+    "release_sha256": "179497a7ac5d318be0a4484d8daee3a3cac6188228da49d434f99aeb67f2701d",
+    "modified": false
+  },
+  {
+    "path": "rap_wam/core/common/checkpoint_util.py",
+    "source": "training-core",
+    "source_sha256": "19e4d902aaf4574cfabdcd44cc4a18606fd16f8413d16e37031e416272617be4",
+    "release_sha256": "19e4d902aaf4574cfabdcd44cc4a18606fd16f8413d16e37031e416272617be4",
+    "modified": false
+  },
+  {
+    "path": "rap_wam/core/common/json_logger.py",
+    "source": "training-core",
+    "source_sha256": "61bb2a751658ff5dfe76878d0c1c4551311591a314b6878d5977b3375199332f",
+    "release_sha256": "61bb2a751658ff5dfe76878d0c1c4551311591a314b6878d5977b3375199332f",
+    "modified": false
+  },
+  {
+    "path": "rap_wam/core/common/normalize_util.py",
+    "source": "training-core",
+    "source_sha256": "33680b395a3e633d74a0cbd8fd3730bdb653a9f89ff6a79f6fecdb6e5a1ddc48",
+    "release_sha256": "a8f9742bf1513b8da0935a78b1f84879f4fd319b3510b4ce1d39b834b0acf770",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/common/pytorch_util.py",
+    "source": "training-core",
+    "source_sha256": "8b91a76b6e750ef6c892f9c5ab6fa17c22b34de8baf481d1609b88ee57af93d4",
+    "release_sha256": "8b91a76b6e750ef6c892f9c5ab6fa17c22b34de8baf481d1609b88ee57af93d4",
+    "modified": false
+  },
+  {
+    "path": "rap_wam/core/common/workspace_utils.py",
+    "source": "training-core",
+    "source_sha256": "21cc537326f826e54216c504374fe4ab53ba884116399bfada3fd65dac232f00",
+    "release_sha256": "81b0088c9d7751ad5d1405879bc18f3ca6f6f73b31d499a5bc730725ab9f3396",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/dataset/__init__.py",
+    "source": "training-core",
+    "source_sha256": "78b699626f18f71525922c889100c9bfe8865022af59225f30c3cb58ea1fe04e",
+    "release_sha256": "3b67ec508b4f99c67921d595077f862b20bbd19fba6a323734427eae1e6d76ed",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/dataset/normalizer_stats.py",
+    "source": "training-core",
+    "source_sha256": "cd2a495e97a9ff1cbc4cd15279cd6425f07680cdfbe58240f40f6c5151c2f72e",
+    "release_sha256": "a58c70ad510a121090544330c8d4a1c3ebc3ea61358911f9dab7f21cfded3140",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/dataset/preprocessors/__init__.py",
+    "source": "training-core",
+    "source_sha256": "18a88db5c1ef32581406dba416569c9bd3fd7e9734483bdfef96c1d21f1dbba7",
+    "release_sha256": "6e6dee76d4d7dd2efc8a10c15af9b2896caed2a70a6f776d490fa61840a1c4fc",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/dataset/preprocessors/base.py",
+    "source": "training-core",
+    "source_sha256": "832feb99565f756d8f3c75fa46e719316fdf8c1e39b31a924ab71be7ba28314a",
+    "release_sha256": "c4dda3c2b5b172ef3753d84da4bd78bb154a632e3ad34a736a5e73d9be1e603f",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/dataset/preprocessors/builder.py",
+    "source": "training-core",
+    "source_sha256": "81f0f43c0a036e0501408663e249ffb2785b088298661b532e63db11efee62bc",
+    "release_sha256": "593f316260b1eff70a420108bf995282877bd085c06bc56d94a0eb030362ddd5",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/dataset/preprocessors/low_dim.py",
+    "source": "training-core",
+    "source_sha256": "39c5a2fc2396886a51e03c407db4cae5bc4a407a33053fd5d20216c984bcbed0",
+    "release_sha256": "925056613633c81b1d4a0bbf2d1124df0ef91f1adca7f0fd243d27d2abed52ba",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/dataset/preprocessors/passthrough.py",
+    "source": "training-core",
+    "source_sha256": "3374e2928aac2d9fd4d1687e42cf6766377da32049d81ef1f70a303b0fd81755",
+    "release_sha256": "fa8c21e83e936b90092f7fd91f924093fc4c680d873200bb2b184ef54072e81e",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/dataset/preprocessors/rgb.py",
+    "source": "training-core",
+    "source_sha256": "65a6a5db1f5c9865b57d662035dc7dbe4354ab64a88e6f9cf45b177aaca37778",
+    "release_sha256": "df92955c46e21c052d8ead329e3f45d5c6cd628101c4719cdcc6908fb672d586",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/dataset/preprocessors/utils.py",
+    "source": "training-core",
+    "source_sha256": "1a7f84023d40d0fb8ad7e53d62fd80dad31ca081db377f10db2b6372b876a975",
+    "release_sha256": "fd3f3d26bcc4e2987430c07334861d9c98807c29f8fdb9b82454677b6f34ae38",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/__init__.py",
+    "source": "training-core",
+    "source_sha256": "401e3ec4d25cef44204b2e39a2f937a5b95737b54e341ed626aedef504db2c5e",
+    "release_sha256": "401e3ec4d25cef44204b2e39a2f937a5b95737b54e341ed626aedef504db2c5e",
+    "modified": false
+  },
+  {
+    "path": "rap_wam/core/model/common/__init__.py",
+    "source": "training-core",
+    "source_sha256": "b2c687bdefb76d3c0558f8bd5a544a7a42c4e8d9db01d04c502009f93c01f16d",
+    "release_sha256": "b916db2a353c0e9755f2e216252473fb555e087232bda3284b45f6f4b5296e83",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/common/dict_of_tensor_mixin.py",
+    "source": "training-core",
+    "source_sha256": "9c679f5cf7076a6554e4c7d29efb96fce8e66db7769723283720e940a6872718",
+    "release_sha256": "a2e9302ca1a86c9c148e668314603310392ec9779d0e466d17f7ec1b3feba5ab",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/common/lora.py",
+    "source": "training-core",
+    "source_sha256": "d39e26faa3a11ab8554893ff3ba35c6d135baf452a36369819f59309ca015dd9",
+    "release_sha256": "d39e26faa3a11ab8554893ff3ba35c6d135baf452a36369819f59309ca015dd9",
+    "modified": false
+  },
+  {
+    "path": "rap_wam/core/model/common/lr_scheduler.py",
+    "source": "training-core",
+    "source_sha256": "31307df4218e126fe7d5e9d8246cdee7ab513d2c03d18d65ce1c8287c7ea900d",
+    "release_sha256": "fe9bf92e041473594e9c1385eeacb9f200e3296e0b9583a9621b4c3e2932ea2e",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/common/module_attr_mixin.py",
+    "source": "training-core",
+    "source_sha256": "065da7d46916450a1817473a0548e6b9d28574ed8850f90a450b7dcbc62c065d",
+    "release_sha256": "31e8eb4cbd57558506ce4b3b97f6d0e33e2303eea25d64daeb0379e7ad486e23",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/common/normalizer.py",
+    "source": "training-core",
+    "source_sha256": "d8f0cc5c8629c59bb402648aa278327bcbca28f72e815e9bdb7338b2efd78891",
+    "release_sha256": "07a6456e48ad9a0b701ed6eacc0806a1ca38370cb629c5bb0e73707611c036fc",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/diffusion/__init__.py",
+    "source": "training-core",
+    "source_sha256": "f1549a7a41cadaf5ef9fd6c24b52cdb6b0f06ff34cf63cc4ca4ff81beb594688",
+    "release_sha256": "1de295983f4bf41763ecf263fa4739188a1d2aac94d5ee7321b5306e1b2b4f4c",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/diffusion/ema_model.py",
+    "source": "training-core",
+    "source_sha256": "6d1d1c2421674f1e80df0cb66c1f51fa56413f4bf9405995ea8635dec4f69fb9",
+    "release_sha256": "bbb875c08e458caf02b4f91e368af1427d2936f226fa888050777717ef28d401",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/diffusion/positional_embedding.py",
+    "source": "training-core",
+    "source_sha256": "a0ce59df2d4bc7d479b31b2e9b90b7218181669f248de7fde217fbc06d5586ad",
+    "release_sha256": "6536b5c60a5b386e81d9d3e92104aaebae917981f4f9fc8a939a5741a41e72cf",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/diffusion/transformer_for_action.py",
+    "source": "training-core",
+    "source_sha256": "dd3567199ea0af27835827f8f665b31434286097acb0231608ede1d5c0506b2a",
+    "release_sha256": "670ab10e209187f9e2e9610614fdebadb1bdaf3e89497c122f42cb1cb2668d36",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/wan/__init__.py",
+    "source": "training-core",
+    "source_sha256": "60541dcf0e4a72ab9a3276b177e79315a82cd6937166c8aa2e107f9b1339fecd",
+    "release_sha256": "dca2760e71032b5ae13057771cd507fe96a6873943871db14186cd494867ee70",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/wan/official_obs_encoder.py",
+    "source": "training-core",
+    "source_sha256": "ba53ef46a1411bbb896394b67c9b993a7bda693b45eb948f1780fad48117aad7",
+    "release_sha256": "ec5153f828217995a9592276697f1b7b448925073426947ca73ff6ae7f4f545f",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/wan/prompt_embedding.py",
+    "source": "training-core",
+    "source_sha256": "2266e688acadf0c4c68a9223b45e420d0debdfcdce53aef79e00e59b40c9ccbe",
+    "release_sha256": "540289c1eab15da770b498691014a1c5ef88f9f6e2fdbbd1f18e28b86ead9ef1",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/model/wan/runtime.py",
+    "source": "training-core",
+    "source_sha256": "0d13c4c2cad8ba89ad786f61953f37ff38f8db12dbf8ce4d828a8547efffdcc4",
+    "release_sha256": "5c5d721126d63294d513255de9997a3a692b465ce7eceb9bd828a25f794a8d55",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/policy/__init__.py",
+    "source": "training-core",
+    "source_sha256": "42ac3ecd911fbd9d477b9158338d4f8570a266e9ec21d2ba7606a9bd4f1cd2ae",
+    "release_sha256": "39b42c485afcc070444339ce18e4a5c0d1d35a40b2de7bd382b0afc1dcadcd4b",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/policy/base_policy.py",
+    "source": "training-core",
+    "source_sha256": "e20f6d8d929e3c17de7efb246fe7d2d146a99f1905735d9ba3449812f0f2455d",
+    "release_sha256": "a20b2b5ffa76a798f87e91a1a8e08b85ca65882f8cc287a88e0fa6609ce88fb2",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/policy/wan_joint_action_policy.py",
+    "source": "training-core",
+    "source_sha256": "b6bcc45ecf65ca0bdfe454f7ee5a41e7749b27d9785cfb5b4ff82ac35952c398",
+    "release_sha256": "afa3bb405d9095a774178a21b7a621624150a7119ef998cd785e8916bce7f199",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/policy/wan_video_policy.py",
+    "source": "training-core",
+    "source_sha256": "984962526c6d6b6dea6a2ed909c4ad8d781fb3370c5bce40a0ddd2acc94e799f",
+    "release_sha256": "d8792b10ff7fbd724702c14a9e02e777caca1a1a8206891b7457572968a65392",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/workspace/__init__.py",
+    "source": "training-core",
+    "source_sha256": "e959a90daf8734173b6ec0151b94f55cea47f8686e1599245a46b9d49e388043",
+    "release_sha256": "cf90219154f5c5becca41e0b9873bc489641c106d28342d45caaf23320dbc965",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/workspace/base_workspace.py",
+    "source": "training-core",
+    "source_sha256": "b19bd91d54b15db79fa988a8e61effb7fe0e2461f50971d1484ae49c4778d496",
+    "release_sha256": "8f6f9339e58a3a1cada0e818d740d0c862cd7e2cfb1d7249c820e6a57cf5fd51",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/core/workspace/wan_train_workspace.py",
+    "source": "training-core",
+    "source_sha256": "f1e07b307cf6eaab075b3c665d68dde0fb597919ce874bd22c61161052e35d2f",
+    "release_sha256": "e36a101cd1df39e716bd95dbd734711a860ed627e34a04138b554b63a9471bee",
+    "modified": true
+  },
+  {
+    "path": "third_party/wan_official/wan/__init__.py",
+    "source": "training-core",
+    "source_sha256": "7477ee3d3d71b7502b8cc078ac03f94abc5a8594cb7cf970eeeb92c0ce0ba320",
+    "release_sha256": "f774983c6f05bdde68b616b5e9c77fd35cfd113236770c060bfeaf9256c3412b",
+    "modified": true
+  },
+  {
+    "path": "third_party/wan_official/wan/modules/__init__.py",
+    "source": "training-core",
+    "source_sha256": "9bf086bfd46e59628a4bde3a44d6ea6624a956ee66e80d04f07681a53875064b",
+    "release_sha256": "32c897fd5ceedf0a24b48ec0d6e18a2e42703b71a584bb43c8425f7d379835b2",
+    "modified": true
+  },
+  {
+    "path": "third_party/wan_official/wan/modules/attention.py",
+    "source": "training-core",
+    "source_sha256": "2995104015ec4ff011b26c787cedb536d66f36c52b944a0033358c3b1ec52b42",
+    "release_sha256": "2995104015ec4ff011b26c787cedb536d66f36c52b944a0033358c3b1ec52b42",
+    "modified": false
+  },
+  {
+    "path": "third_party/wan_official/wan/modules/model.py",
+    "source": "training-core",
+    "source_sha256": "bea59ee44f4b967f0bfd78122777136198312dd8a61ff024dc2efcf47fe83c6e",
+    "release_sha256": "bea59ee44f4b967f0bfd78122777136198312dd8a61ff024dc2efcf47fe83c6e",
+    "modified": false
+  },
+  {
+    "path": "third_party/wan_official/wan/modules/t5.py",
+    "source": "training-core",
+    "source_sha256": "8b0cebf3192c542f92a344255a06c203df3ba24160715899a055cc8de0cd930f",
+    "release_sha256": "34f85e53a1639f62b1f22d14dbbfa0301e240bb5ab00a632e832c077b7904213",
+    "modified": true
+  },
+  {
+    "path": "third_party/wan_official/wan/modules/tokenizers.py",
+    "source": "training-core",
+    "source_sha256": "371d51bcc919e824e5dc82fd2a55d5ba66dcae8cf62745e7e5632120eb5477de",
+    "release_sha256": "371d51bcc919e824e5dc82fd2a55d5ba66dcae8cf62745e7e5632120eb5477de",
+    "modified": false
+  },
+  {
+    "path": "third_party/wan_official/wan/modules/vae2_2.py",
+    "source": "training-core",
+    "source_sha256": "e949e2c7b6fbda11caa2546c425992f193b3c05ff82544e269db5f11f687ebdd",
+    "release_sha256": "e949e2c7b6fbda11caa2546c425992f193b3c05ff82544e269db5f11f687ebdd",
+    "modified": false
+  },
+  {
+    "path": "rap_wam/data/language_dataset.py",
+    "source": "robodojo-training-archive",
+    "source_sha256": "51598f839b1a590ddcbd33676796a2bc40f7873ad912b56f0a2a68c91908aa90",
+    "release_sha256": "7438f6050eff943c0a361ccba295fd6d48f3f61d126ba0e624a8f4c4787d4d79",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/policy/language_policy.py",
+    "source": "robodojo-training-archive",
+    "source_sha256": "22a2784afe2d96ebd8daeef62c2a9416e2c1229a063e9a2627b2dc4ab4abad5f",
+    "release_sha256": "24ffd2abaff212c0ffe0ebe2074888e5d792af4dc622b232ab3d524aa397da28",
+    "modified": true
+  },
+  {
+    "path": "rap_wam/fixed100_dataset.py",
+    "source": "fixed100-dataset",
+    "source_sha256": "aecc3e1d12ec49a8d70dcd9608d5c9ac3d6062b635ab8f0bd588e1f79a6f5871",
+    "release_sha256": "7a5544af6395ef6573efe5cb013828c7fab4a010801a22aeb2de9dfe92466495",
+    "modified": true
+  }
+]
