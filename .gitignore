@@ -7,7 +7,7 @@ dist/
 .pytest_cache/
 .DS_Store
 assets/
-data/
+/data/
 outputs/
 .cache/
 *.ckpt
